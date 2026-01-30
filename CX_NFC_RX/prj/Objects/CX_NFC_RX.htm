@@ -1,0 +1,1051 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\Objects\CX_NFC_RX.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\Objects\CX_NFC_RX.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6160001: Last Updated: Thu Jan 29 17:48:00 2026
+<BR><P>
+<H3>Maximum Stack Usage =        232 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+__rt_entry_main &rArr; main &rArr; fm11_dev_init &rArr; dev_fm11_init &rArr; dev_fm11_WriteE2 &rArr; dev_fm11_sEE_WritePage &rArr; i2c_bus_device_Write &rArr; i2c_bus_device_WaitAck
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[12]">ADC_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[12]">ADC_IRQHandler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[12]">ADC_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[26]">CMP0_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[27]">CMP1_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[25]">DMAMUX_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[f]">DMA_Channel0_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[10]">DMA_Channel1_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[11]">DMA_Channel2_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[a]">EXTI0_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[24]">EXTI10_15_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[b]">EXTI1_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[c]">EXTI2_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[d]">EXTI3_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[e]">EXTI4_IRQHandler</a> from bsp_gpio.o(.text.EXTI4_IRQHandler) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[1d]">EXTI5_9_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[8]">FMC_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[2]">HardFault_Handler</a> from gd32c2x1_it.o(.text.HardFault_Handler) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[17]">I2C0_ER_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[16]">I2C0_EV_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[28]">I2C0_WKUP_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[19]">I2C1_ER_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[18]">I2C1_EV_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[29]">I2C1_WKUP_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[1]">NMI_Handler</a> from gd32c2x1_it.o(.text.NMI_Handler) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[4]">PendSV_Handler</a> from gd32c2x1_it.o(.text.PendSV_Handler) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[9]">RCU_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[1c]">RTC_Alarm_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[0]">Reset_Handler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[1a]">SPI0_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[1b]">SPI1_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[3]">SVC_Handler</a> from gd32c2x1_it.o(.text.SVC_Handler) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[5]">SysTick_Handler</a> from gd32c2x1_it.o(.text.SysTick_Handler) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[2b]">SystemInit</a> from system_gd32c2x1.o(.text.SystemInit) referenced from startup_gd32c2x1.o(.text)
+ <LI><a href="#[1f]">TIMER0_Channel_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[1e]">TIMER0_TRG_CMT_UP_BRK_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[21]">TIMER13_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[22]">TIMER15_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[23]">TIMER16_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[20]">TIMER2_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[7]">TIMESTAMP_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[13]">USART0_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[2a]">USART0_WKUP_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[14]">USART1_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[15]">USART2_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[6]">WWDGT_IRQHandler</a> from startup_gd32c2x1.o(.text) referenced from startup_gd32c2x1.o(RESET)
+ <LI><a href="#[2c]">__main</a> from __main.o(!!!main) referenced from startup_gd32c2x1.o(.text)
+ <LI><a href="#[2d]">delay_us</a> from bsp_delay.o(.text.delay_us) referenced from bsp_i2c.o(.text.bsp_i2c_bus_init)
+ <LI><a href="#[2d]">delay_us</a> from bsp_delay.o(.text.delay_us) referenced from bsp_i2c.o(.text.fm11_dev_init)
+ <LI><a href="#[31]">fm11_csn_ctl</a> from bsp_i2c.o(.text.fm11_csn_ctl) referenced from bsp_i2c.o(.text.fm11_dev_init)
+ <LI><a href="#[32]">fm11_irq_pro</a> from bsp_i2c.o(.text.fm11_irq_pro) referenced from bsp_i2c.o(.text.fm11_dev_init)
+ <LI><a href="#[2e]">i2c_bus0_gpio_init</a> from bsp_i2c.o(.text.i2c_bus0_gpio_init) referenced from bsp_i2c.o(.text.bsp_i2c_bus_init)
+ <LI><a href="#[2f]">i2c_bus0_gpio_pinCtl</a> from bsp_i2c.o(.text.i2c_bus0_gpio_pinCtl) referenced from bsp_i2c.o(.text.bsp_i2c_bus_init)
+ <LI><a href="#[30]">i2c_bus0_gpio_read</a> from bsp_i2c.o(.text.i2c_bus0_gpio_read) referenced from bsp_i2c.o(.text.bsp_i2c_bus_init)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[2c]"></a>__main</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, __main.o(!!!main))
+<BR><BR>[Calls]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+<LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(.text)
+</UL>
+<P><STRONG><a name="[33]"></a>__scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter))
+<BR><BR>[Called By]<UL><LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[35]"></a>__scatterload_rt2</STRONG> (Thumb, 52 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[8f]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[90]"></a>__scatterload_null</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[36]"></a>__scatterload_copy</STRONG> (Thumb, 26 bytes, Stack size unknown bytes, __scatter_copy.o(!!handler_copy), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
+</UL>
+
+<P><STRONG><a name="[91]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
+
+<P><STRONG><a name="[3a]"></a>__rt_lib_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit.o(.ARM.Collect$$libinit$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_li
+</UL>
+
+<P><STRONG><a name="[92]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
+
+<P><STRONG><a name="[93]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002C))
+
+<P><STRONG><a name="[94]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
+
+<P><STRONG><a name="[95]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
+
+<P><STRONG><a name="[96]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
+
+<P><STRONG><a name="[97]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
+
+<P><STRONG><a name="[98]"></a>__rt_lib_init_fp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000002))
+
+<P><STRONG><a name="[99]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
+
+<P><STRONG><a name="[9a]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
+
+<P><STRONG><a name="[9b]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000A))
+
+<P><STRONG><a name="[9c]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000011))
+
+<P><STRONG><a name="[9d]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
+
+<P><STRONG><a name="[9e]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
+
+<P><STRONG><a name="[9f]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
+
+<P><STRONG><a name="[a0]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
+
+<P><STRONG><a name="[a1]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
+
+<P><STRONG><a name="[a2]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
+
+<P><STRONG><a name="[a3]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000033))
+
+<P><STRONG><a name="[a4]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
+
+<P><STRONG><a name="[a5]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
+
+<P><STRONG><a name="[a6]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
+
+<P><STRONG><a name="[3f]"></a>__rt_lib_shutdown</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown.o(.ARM.Collect$$libshutdown$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_ls
+</UL>
+
+<P><STRONG><a name="[a7]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
+
+<P><STRONG><a name="[a8]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000007))
+
+<P><STRONG><a name="[a9]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F))
+
+<P><STRONG><a name="[aa]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000010))
+
+<P><STRONG><a name="[ab]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A))
+
+<P><STRONG><a name="[ac]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
+
+<P><STRONG><a name="[ad]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
+
+<P><STRONG><a name="[34]"></a>__rt_entry</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry.o(.ARM.Collect$$rtentry$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_rt2
+<LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[ae]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
+
+<P><STRONG><a name="[37]"></a>__rt_entry_sh</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry4.o(.ARM.Collect$$rtentry$$00000004))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_sh &rArr; __user_setup_stackheap
+</UL>
+<BR>[Calls]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[39]"></a>__rt_entry_li</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000A))
+<BR><BR>[Calls]<UL><LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
+</UL>
+
+<P><STRONG><a name="[af]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
+
+<P><STRONG><a name="[3b]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
+<BR><BR>[Stack]<UL><LI>Max Depth = 232 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_main &rArr; main &rArr; fm11_dev_init &rArr; dev_fm11_init &rArr; dev_fm11_WriteE2 &rArr; dev_fm11_sEE_WritePage &rArr; i2c_bus_device_Write &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+
+<P><STRONG><a name="[b0]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
+
+<P><STRONG><a name="[47]"></a>__rt_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit.o(.ARM.Collect$$rtexit$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+
+<P><STRONG><a name="[3e]"></a>__rt_exit_ls</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000003))
+<BR><BR>[Calls]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
+</UL>
+
+<P><STRONG><a name="[b1]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
+
+<P><STRONG><a name="[40]"></a>__rt_exit_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
+</UL>
+
+<P><STRONG><a name="[0]"></a>Reset_Handler</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>ADC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[12]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[26]"></a>CMP0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[27]"></a>CMP1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[25]"></a>DMAMUX_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[f]"></a>DMA_Channel0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>DMA_Channel1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[11]"></a>DMA_Channel2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[24]"></a>EXTI10_15_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[b]"></a>EXTI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[c]"></a>EXTI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>EXTI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[1d]"></a>EXTI5_9_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[8]"></a>FMC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[17]"></a>I2C0_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[16]"></a>I2C0_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[28]"></a>I2C0_WKUP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[19]"></a>I2C1_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[18]"></a>I2C1_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[29]"></a>I2C1_WKUP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[9]"></a>RCU_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[1c]"></a>RTC_Alarm_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[1a]"></a>SPI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[1b]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[1f]"></a>TIMER0_Channel_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[1e]"></a>TIMER0_TRG_CMT_UP_BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[21]"></a>TIMER13_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[22]"></a>TIMER15_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[23]"></a>TIMER16_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[20]"></a>TIMER2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[7]"></a>TIMESTAMP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>USART0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[2a]"></a>USART0_WKUP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>USART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[15]"></a>USART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[6]"></a>WWDGT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[45]"></a>__user_initial_stackheap</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, startup_gd32c2x1.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[87]"></a>__aeabi_lmul</STRONG> (Thumb, 48 bytes, Stack size 12 bytes, llmul.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = __aeabi_lmul
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ln_q16
+</UL>
+
+<P><STRONG><a name="[b2]"></a>_ll_mul</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, llmul.o(.text), UNUSED)
+
+<P><STRONG><a name="[42]"></a>__aeabi_ldivmod</STRONG> (Thumb, 166 bytes, Stack size 16 bytes, llsdiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = __aeabi_ldivmod &rArr; __aeabi_uldivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;hns_ntc_get_temp_c
+</UL>
+
+<P><STRONG><a name="[b3]"></a>_ll_sdiv</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, llsdiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[43]"></a>__aeabi_uldivmod</STRONG> (Thumb, 272 bytes, Stack size 32 bytes, lludiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = __aeabi_uldivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;hns_ntc_get_temp_c
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ldivmod
+</UL>
+
+<P><STRONG><a name="[b4]"></a>_ll_udiv</STRONG> (Thumb, 0 bytes, Stack size 32 bytes, lludiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[b5]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[b6]"></a>__rt_heap_escrow$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[b7]"></a>__rt_heap_expand$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[38]"></a>__user_setup_stackheap</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, sys_stackheap_outer.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __user_setup_stackheap
+</UL>
+<BR>[Calls]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_initial_stackheap
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_perproc_libspace
+</UL>
+<BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_sh
+</UL>
+
+<P><STRONG><a name="[3d]"></a>exit</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, exit.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = exit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit
+<LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_call_atexit_fns (Weak Reference)
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
+</UL>
+
+<P><STRONG><a name="[b8]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+
+<P><STRONG><a name="[44]"></a>__user_perproc_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[b9]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+
+<P><STRONG><a name="[41]"></a>_sys_exit</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, sys_exit.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_exit
+</UL>
+
+<P><STRONG><a name="[ba]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[bb]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[bc]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, indicate_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[e]"></a>EXTI4_IRQHandler</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, bsp_gpio.o(.text.EXTI4_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = EXTI4_IRQHandler &rArr; exti_interrupt_flag_get
+</UL>
+<BR>[Calls]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exti_interrupt_flag_get
+<LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exti_interrupt_flag_clear
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, gd32c2x1_it.o(.text.HardFault_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, gd32c2x1_it.o(.text.NMI_Handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = NMI_Handler &rArr; syscfg_interrupt_flag_get
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscfg_interrupt_flag_get
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>PendSV_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, gd32c2x1_it.o(.text.PendSV_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[3]"></a>SVC_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, gd32c2x1_it.o(.text.SVC_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[5]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, gd32c2x1_it.o(.text.SysTick_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(RESET)
+</UL>
+<P><STRONG><a name="[2b]"></a>SystemInit</STRONG> (Thumb, 96 bytes, Stack size 16 bytes, system_gd32c2x1.o(.text.SystemInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = SystemInit &rArr; system_clock_config &rArr; system_clock_irc48m &rArr; rcu_irc48mdiv_sys_clock_config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvic_vector_table_set
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;system_clock_config
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32c2x1.o(.text)
+</UL>
+<P><STRONG><a name="[58]"></a>adc_channel_length_config</STRONG> (Thumb, 128 bytes, Stack size 12 bytes, gd32c2x1_adc.o(.text.adc_channel_length_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = adc_channel_length_config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_config
+</UL>
+
+<P><STRONG><a name="[4d]"></a>adc_channel_sample</STRONG> (Thumb, 128 bytes, Stack size 32 bytes, bsp_adc.o(.text.adc_channel_sample))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = adc_channel_sample &rArr; hns_ntc_get_temp_c &rArr; __aeabi_ldivmod &rArr; __aeabi_uldivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_software_trigger_enable
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_inserted_data_read
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_flag_get
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_flag_clear
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ntc_calc_resistance
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;hns_ntc_get_temp_c
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;avg16_filter_update
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[55]"></a>adc_config</STRONG> (Thumb, 106 bytes, Stack size 24 bytes, bsp_adc.o(.text.adc_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = adc_config &rArr; adc_inserted_channel_config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_special_function_config
+<LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_internal_channel_config
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_inserted_channel_config
+<LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_external_trigger_source_config
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_external_trigger_config
+<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_enable
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_data_alignment_config
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_channel_length_config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_init
+</UL>
+
+<P><STRONG><a name="[57]"></a>adc_data_alignment_config</STRONG> (Thumb, 44 bytes, Stack size 4 bytes, gd32c2x1_adc.o(.text.adc_data_alignment_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = adc_data_alignment_config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_config
+</UL>
+
+<P><STRONG><a name="[5d]"></a>adc_enable</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, gd32c2x1_adc.o(.text.adc_enable))
+<BR><BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_config
+</UL>
+
+<P><STRONG><a name="[5b]"></a>adc_external_trigger_config</STRONG> (Thumb, 128 bytes, Stack size 8 bytes, gd32c2x1_adc.o(.text.adc_external_trigger_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = adc_external_trigger_config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_config
+</UL>
+
+<P><STRONG><a name="[5a]"></a>adc_external_trigger_source_config</STRONG> (Thumb, 84 bytes, Stack size 12 bytes, gd32c2x1_adc.o(.text.adc_external_trigger_source_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = adc_external_trigger_source_config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_config
+</UL>
+
+<P><STRONG><a name="[51]"></a>adc_flag_clear</STRONG> (Thumb, 24 bytes, Stack size 4 bytes, gd32c2x1_adc.o(.text.adc_flag_clear))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = adc_flag_clear
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_channel_sample
+</UL>
+
+<P><STRONG><a name="[4f]"></a>adc_flag_get</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, gd32c2x1_adc.o(.text.adc_flag_get))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = adc_flag_get
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_channel_sample
+</UL>
+
+<P><STRONG><a name="[5e]"></a>adc_gpio_config</STRONG> (Thumb, 48 bytes, Stack size 24 bytes, bsp_adc.o(.text.adc_gpio_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = adc_gpio_config &rArr; gpio_mode_set
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_clock_enable
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_mode_set
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_init
+</UL>
+
+<P><STRONG><a name="[61]"></a>adc_init</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, bsp_adc.o(.text.adc_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = adc_init &rArr; adc_config &rArr; adc_inserted_channel_config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_config
+<LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_gpio_config
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_config
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;avg16_filter_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[59]"></a>adc_inserted_channel_config</STRONG> (Thumb, 224 bytes, Stack size 40 bytes, gd32c2x1_adc.o(.text.adc_inserted_channel_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = adc_inserted_channel_config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_config
+</UL>
+
+<P><STRONG><a name="[50]"></a>adc_inserted_data_read</STRONG> (Thumb, 92 bytes, Stack size 12 bytes, gd32c2x1_adc.o(.text.adc_inserted_data_read))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = adc_inserted_data_read
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_channel_sample
+</UL>
+
+<P><STRONG><a name="[5c]"></a>adc_internal_channel_config</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, gd32c2x1_adc.o(.text.adc_internal_channel_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = adc_internal_channel_config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_config
+</UL>
+
+<P><STRONG><a name="[4e]"></a>adc_software_trigger_enable</STRONG> (Thumb, 60 bytes, Stack size 4 bytes, gd32c2x1_adc.o(.text.adc_software_trigger_enable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = adc_software_trigger_enable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_channel_sample
+</UL>
+
+<P><STRONG><a name="[56]"></a>adc_special_function_config</STRONG> (Thumb, 172 bytes, Stack size 8 bytes, gd32c2x1_adc.o(.text.adc_special_function_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = adc_special_function_config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_config
+</UL>
+
+<P><STRONG><a name="[63]"></a>avg16_filter_init</STRONG> (Thumb, 52 bytes, Stack size 8 bytes, filter.o(.text.avg16_filter_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = avg16_filter_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_init
+</UL>
+
+<P><STRONG><a name="[53]"></a>avg16_filter_update</STRONG> (Thumb, 80 bytes, Stack size 8 bytes, filter.o(.text.avg16_filter_update))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = avg16_filter_update
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_channel_sample
+</UL>
+
+<P><STRONG><a name="[7c]"></a>bsp_gpio_int_callback_reg</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, bsp_gpio.o(.text.bsp_gpio_int_callback_reg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = bsp_gpio_int_callback_reg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fm11_dev_init
+</UL>
+
+<P><STRONG><a name="[64]"></a>bsp_gpio_int_init</STRONG> (Thumb, 204 bytes, Stack size 56 bytes, bsp_gpio.o(.text.bsp_gpio_int_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = bsp_gpio_int_init &rArr; nvic_irq_enable &rArr; __NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscfg_exti_line_config
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvic_irq_enable
+<LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exti_interrupt_flag_clear
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exti_init
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_clock_enable
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_mode_set
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[68]"></a>bsp_i2c_bus_init</STRONG> (Thumb, 100 bytes, Stack size 32 bytes, bsp_i2c.o(.text.bsp_i2c_bus_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = bsp_i2c_bus_init &rArr; i2c_bus_device_CheckDevice &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_init
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_CheckDevice
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[6b]"></a>delay_loop</STRONG> (Thumb, 16 bytes, Stack size 4 bytes, bsp_delay.o(.text.delay_loop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = delay_loop
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
+</UL>
+
+<P><STRONG><a name="[2d]"></a>delay_us</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, bsp_delay.o(.text.delay_us))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = delay_us &rArr; delay_loop
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_loop
+</UL>
+<BR>[Address Reference Count : 2]<UL><LI> bsp_i2c.o(.text.bsp_i2c_bus_init)
+<LI> bsp_i2c.o(.text.fm11_dev_init)
+</UL>
+<P><STRONG><a name="[6c]"></a>dev_fm11_RFDataRx</STRONG> (Thumb, 176 bytes, Stack size 32 bytes, fm411_driver.o(.text.dev_fm11_RFDataRx))
+<BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = dev_fm11_RFDataRx &rArr; dev_fm11_ReadReg &rArr; dev_fm11_ReadE2 &rArr; i2c_bus_device_Read &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_ReadReg
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_ReadFIFO
+</UL>
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prog_task
+</UL>
+
+<P><STRONG><a name="[6f]"></a>dev_fm11_RFDataTx</STRONG> (Thumb, 180 bytes, Stack size 32 bytes, fm411_driver.o(.text.dev_fm11_RFDataTx))
+<BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = dev_fm11_RFDataTx &rArr; dev_fm11_ReadReg &rArr; dev_fm11_ReadE2 &rArr; i2c_bus_device_Read &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_WriteReg
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_WriteFIFO
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prog_task
+</UL>
+
+<P><STRONG><a name="[72]"></a>dev_fm11_ReadE2</STRONG> (Thumb, 94 bytes, Stack size 56 bytes, fm411_driver.o(.text.dev_fm11_ReadE2))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = dev_fm11_ReadE2 &rArr; i2c_bus_device_Read &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Read
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_ReadReg
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_ReadFIFO
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_init
+</UL>
+
+<P><STRONG><a name="[6e]"></a>dev_fm11_ReadFIFO</STRONG> (Thumb, 64 bytes, Stack size 40 bytes, fm411_driver.o(.text.dev_fm11_ReadFIFO))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = dev_fm11_ReadFIFO &rArr; dev_fm11_ReadE2 &rArr; i2c_bus_device_Read &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_ReadE2
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_RFDataRx
+</UL>
+
+<P><STRONG><a name="[6d]"></a>dev_fm11_ReadReg</STRONG> (Thumb, 60 bytes, Stack size 40 bytes, fm411_driver.o(.text.dev_fm11_ReadReg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = dev_fm11_ReadReg &rArr; dev_fm11_ReadE2 &rArr; i2c_bus_device_Read &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_ReadE2
+</UL>
+<BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_irq_procee
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_get_irq
+<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_RFDataTx
+<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_RFDataRx
+</UL>
+
+<P><STRONG><a name="[74]"></a>dev_fm11_WriteE2</STRONG> (Thumb, 360 bytes, Stack size 40 bytes, fm411_driver.o(.text.dev_fm11_WriteE2))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = dev_fm11_WriteE2 &rArr; dev_fm11_sEE_WritePage &rArr; i2c_bus_device_Write &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_sEE_WritePage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_init
+</UL>
+
+<P><STRONG><a name="[70]"></a>dev_fm11_WriteFIFO</STRONG> (Thumb, 36 bytes, Stack size 24 bytes, fm411_driver.o(.text.dev_fm11_WriteFIFO))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = dev_fm11_WriteFIFO &rArr; dev_fm11_sEE_WritePage &rArr; i2c_bus_device_Write &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_sEE_WritePage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_RFDataTx
+</UL>
+
+<P><STRONG><a name="[71]"></a>dev_fm11_WriteReg</STRONG> (Thumb, 34 bytes, Stack size 24 bytes, fm411_driver.o(.text.dev_fm11_WriteReg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = dev_fm11_WriteReg &rArr; dev_fm11_sEE_WritePage &rArr; i2c_bus_device_Write &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_sEE_WritePage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_irq_procee
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_init
+<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_RFDataTx
+</UL>
+
+<P><STRONG><a name="[76]"></a>dev_fm11_get_irq</STRONG> (Thumb, 28 bytes, Stack size 24 bytes, fm411_driver.o(.text.dev_fm11_get_irq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = dev_fm11_get_irq &rArr; dev_fm11_ReadReg &rArr; dev_fm11_ReadE2 &rArr; i2c_bus_device_Read &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fm11_irq_pro
+</UL>
+
+<P><STRONG><a name="[77]"></a>dev_fm11_init</STRONG> (Thumb, 160 bytes, Stack size 48 bytes, fm411_driver.o(.text.dev_fm11_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = dev_fm11_init &rArr; dev_fm11_WriteE2 &rArr; dev_fm11_sEE_WritePage &rArr; i2c_bus_device_Write &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_WriteReg
+<LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_WriteE2
+<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_ReadE2
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fm11_dev_init
+</UL>
+
+<P><STRONG><a name="[78]"></a>dev_fm11_irq_procee</STRONG> (Thumb, 216 bytes, Stack size 24 bytes, fm411_driver.o(.text.dev_fm11_irq_procee))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = dev_fm11_irq_procee &rArr; dev_fm11_ReadReg &rArr; dev_fm11_ReadE2 &rArr; i2c_bus_device_Read &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_WriteReg
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_ReadReg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fm11_irq_pro
+</UL>
+
+<P><STRONG><a name="[75]"></a>dev_fm11_sEE_WritePage</STRONG> (Thumb, 64 bytes, Stack size 48 bytes, fm411_driver.o(.text.dev_fm11_sEE_WritePage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = dev_fm11_sEE_WritePage &rArr; i2c_bus_device_Write &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Write
+</UL>
+<BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_WriteReg
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_WriteFIFO
+<LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_WriteE2
+</UL>
+
+<P><STRONG><a name="[67]"></a>exti_init</STRONG> (Thumb, 208 bytes, Stack size 20 bytes, gd32c2x1_exti.o(.text.exti_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = exti_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_gpio_int_init
+</UL>
+
+<P><STRONG><a name="[49]"></a>exti_interrupt_flag_clear</STRONG> (Thumb, 16 bytes, Stack size 4 bytes, gd32c2x1_exti.o(.text.exti_interrupt_flag_clear))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = exti_interrupt_flag_clear
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI4_IRQHandler
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_gpio_int_init
+</UL>
+
+<P><STRONG><a name="[48]"></a>exti_interrupt_flag_get</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, gd32c2x1_exti.o(.text.exti_interrupt_flag_get))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = exti_interrupt_flag_get
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI4_IRQHandler
+</UL>
+
+<P><STRONG><a name="[31]"></a>fm11_csn_ctl</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, bsp_i2c.o(.text.fm11_csn_ctl))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = fm11_csn_ctl &rArr; gpio_bit_write
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_bit_write
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> bsp_i2c.o(.text.fm11_dev_init)
+</UL>
+<P><STRONG><a name="[7b]"></a>fm11_dev_init</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, bsp_i2c.o(.text.fm11_dev_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = fm11_dev_init &rArr; dev_fm11_init &rArr; dev_fm11_WriteE2 &rArr; dev_fm11_sEE_WritePage &rArr; i2c_bus_device_Write &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_init
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_gpio_int_callback_reg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[32]"></a>fm11_irq_pro</STRONG> (Thumb, 36 bytes, Stack size 24 bytes, bsp_i2c.o(.text.fm11_irq_pro))
+<BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = fm11_irq_pro &rArr; dev_fm11_irq_procee &rArr; dev_fm11_ReadReg &rArr; dev_fm11_ReadE2 &rArr; i2c_bus_device_Read &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_irq_procee
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_get_irq
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> bsp_i2c.o(.text.fm11_dev_init)
+</UL>
+<P><STRONG><a name="[7a]"></a>gpio_bit_write</STRONG> (Thumb, 40 bytes, Stack size 12 bytes, gd32c2x1_gpio.o(.text.gpio_bit_write))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = gpio_bit_write
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus0_gpio_pinCtl
+<LI><a href="#[31]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fm11_csn_ctl
+</UL>
+
+<P><STRONG><a name="[7f]"></a>gpio_input_bit_get</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, gd32c2x1_gpio.o(.text.gpio_input_bit_get))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = gpio_input_bit_get
+</UL>
+<BR>[Called By]<UL><LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus0_gpio_read
+</UL>
+
+<P><STRONG><a name="[60]"></a>gpio_mode_set</STRONG> (Thumb, 150 bytes, Stack size 28 bytes, gd32c2x1_gpio.o(.text.gpio_mode_set))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = gpio_mode_set
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_gpio_config
+<LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus0_gpio_init
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_gpio_int_init
+</UL>
+
+<P><STRONG><a name="[7e]"></a>gpio_output_options_set</STRONG> (Thumb, 148 bytes, Stack size 32 bytes, gd32c2x1_gpio.o(.text.gpio_output_options_set))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = gpio_output_options_set
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus0_gpio_init
+</UL>
+
+<P><STRONG><a name="[54]"></a>hns_ntc_get_temp_c</STRONG> (Thumb, 72 bytes, Stack size 32 bytes, hns_ntc.o(.text.hns_ntc_get_temp_c))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = hns_ntc_get_temp_c &rArr; __aeabi_ldivmod &rArr; __aeabi_uldivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ln_q16
+<LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ldivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_channel_sample
+</UL>
+
+<P><STRONG><a name="[2e]"></a>i2c_bus0_gpio_init</STRONG> (Thumb, 108 bytes, Stack size 40 bytes, bsp_i2c.o(.text.i2c_bus0_gpio_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = i2c_bus0_gpio_init &rArr; gpio_output_options_set
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_clock_enable
+<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_output_options_set
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_mode_set
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> bsp_i2c.o(.text.bsp_i2c_bus_init)
+</UL>
+<P><STRONG><a name="[2f]"></a>i2c_bus0_gpio_pinCtl</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, bsp_i2c.o(.text.i2c_bus0_gpio_pinCtl))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = i2c_bus0_gpio_pinCtl &rArr; gpio_bit_write
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_bit_write
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> bsp_i2c.o(.text.bsp_i2c_bus_init)
+</UL>
+<P><STRONG><a name="[30]"></a>i2c_bus0_gpio_read</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, bsp_i2c.o(.text.i2c_bus0_gpio_read))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = i2c_bus0_gpio_read &rArr; gpio_input_bit_get
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_input_bit_get
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> bsp_i2c.o(.text.bsp_i2c_bus_init)
+</UL>
+<P><STRONG><a name="[85]"></a>i2c_bus_device_Ack</STRONG> (Thumb, 88 bytes, Stack size 24 bytes, i2c_bus_device.o(.text.i2c_bus_device_Ack))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = i2c_bus_device_Ack
+</UL>
+<BR>[Called By]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Write
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Read
+</UL>
+
+<P><STRONG><a name="[6a]"></a>i2c_bus_device_CheckDevice</STRONG> (Thumb, 158 bytes, Stack size 24 bytes, i2c_bus_device.o(.text.i2c_bus_device_CheckDevice))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = i2c_bus_device_CheckDevice &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_WaitAck
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Stop
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Start
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_SendByte
+</UL>
+<BR>[Called By]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_i2c_bus_init
+</UL>
+
+<P><STRONG><a name="[86]"></a>i2c_bus_device_NAck</STRONG> (Thumb, 78 bytes, Stack size 24 bytes, i2c_bus_device.o(.text.i2c_bus_device_NAck))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = i2c_bus_device_NAck
+</UL>
+<BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Read
+</UL>
+
+<P><STRONG><a name="[73]"></a>i2c_bus_device_Read</STRONG> (Thumb, 286 bytes, Stack size 40 bytes, i2c_bus_device.o(.text.i2c_bus_device_Read))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = i2c_bus_device_Read &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_WaitAck
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Stop
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Start
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_SendByte
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_ReadByte
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_NAck
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Ack
+</UL>
+<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_ReadE2
+</UL>
+
+<P><STRONG><a name="[84]"></a>i2c_bus_device_ReadByte</STRONG> (Thumb, 158 bytes, Stack size 24 bytes, i2c_bus_device.o(.text.i2c_bus_device_ReadByte))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = i2c_bus_device_ReadByte
+</UL>
+<BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Read
+</UL>
+
+<P><STRONG><a name="[81]"></a>i2c_bus_device_SendByte</STRONG> (Thumb, 168 bytes, Stack size 24 bytes, i2c_bus_device.o(.text.i2c_bus_device_SendByte))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = i2c_bus_device_SendByte
+</UL>
+<BR>[Called By]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Write
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Read
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_CheckDevice
+</UL>
+
+<P><STRONG><a name="[80]"></a>i2c_bus_device_Start</STRONG> (Thumb, 78 bytes, Stack size 24 bytes, i2c_bus_device.o(.text.i2c_bus_device_Start))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = i2c_bus_device_Start
+</UL>
+<BR>[Called By]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Write
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Read
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_CheckDevice
+</UL>
+
+<P><STRONG><a name="[83]"></a>i2c_bus_device_Stop</STRONG> (Thumb, 78 bytes, Stack size 24 bytes, i2c_bus_device.o(.text.i2c_bus_device_Stop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = i2c_bus_device_Stop
+</UL>
+<BR>[Called By]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Write
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Read
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_CheckDevice
+</UL>
+
+<P><STRONG><a name="[82]"></a>i2c_bus_device_WaitAck</STRONG> (Thumb, 118 bytes, Stack size 24 bytes, i2c_bus_device.o(.text.i2c_bus_device_WaitAck))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = i2c_bus_device_WaitAck
+</UL>
+<BR>[Called By]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Write
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Read
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_CheckDevice
+</UL>
+
+<P><STRONG><a name="[79]"></a>i2c_bus_device_Write</STRONG> (Thumb, 230 bytes, Stack size 40 bytes, i2c_bus_device.o(.text.i2c_bus_device_Write))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = i2c_bus_device_Write &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_WaitAck
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Stop
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Start
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_SendByte
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus_device_Ack
+</UL>
+<BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_sEE_WritePage
+</UL>
+
+<P><STRONG><a name="[69]"></a>i2c_bus_device_init</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, i2c_bus_device.o(.text.i2c_bus_device_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = i2c_bus_device_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_i2c_bus_init
+</UL>
+
+<P><STRONG><a name="[3c]"></a>main</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, main.o(.text.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = main &rArr; fm11_dev_init &rArr; dev_fm11_init &rArr; dev_fm11_WriteE2 &rArr; dev_fm11_sEE_WritePage &rArr; i2c_bus_device_Write &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;table_init
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prog_task
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fm11_dev_init
+<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_i2c_bus_init
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_gpio_int_init
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_init
+<LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_channel_sample
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
+</UL>
+
+<P><STRONG><a name="[52]"></a>ntc_calc_resistance</STRONG> (Thumb, 48 bytes, Stack size 4 bytes, hns_ntc.o(.text.ntc_calc_resistance))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = ntc_calc_resistance
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_channel_sample
+</UL>
+
+<P><STRONG><a name="[65]"></a>nvic_irq_enable</STRONG> (Thumb, 46 bytes, Stack size 24 bytes, gd32c2x1_misc.o(.text.nvic_irq_enable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = nvic_irq_enable &rArr; __NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_SetPriority
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_gpio_int_init
+</UL>
+
+<P><STRONG><a name="[4c]"></a>nvic_vector_table_set</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, gd32c2x1_misc.o(.text.nvic_vector_table_set))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = nvic_vector_table_set
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+
+<P><STRONG><a name="[89]"></a>prog_task</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, nfc_command.o(.text.prog_task))
+<BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = prog_task &rArr; dev_fm11_RFDataTx &rArr; dev_fm11_ReadReg &rArr; dev_fm11_ReadE2 &rArr; i2c_bus_device_Read &rArr; i2c_bus_device_WaitAck
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_RFDataTx
+<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_fm11_RFDataRx
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[8c]"></a>rcu_adc_clock_config</STRONG> (Thumb, 60 bytes, Stack size 12 bytes, gd32c2x1_rcu.o(.text.rcu_adc_clock_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = rcu_adc_clock_config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_config
+</UL>
+
+<P><STRONG><a name="[62]"></a>rcu_config</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, bsp_adc.o(.text.rcu_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = rcu_config &rArr; rcu_adc_clock_config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_adc_clock_config
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_periph_clock_enable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_init
+</UL>
+
+<P><STRONG><a name="[8e]"></a>rcu_irc48mdiv_sys_clock_config</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, gd32c2x1_rcu.o(.text.rcu_irc48mdiv_sys_clock_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = rcu_irc48mdiv_sys_clock_config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;system_clock_irc48m
+</UL>
+
+<P><STRONG><a name="[5f]"></a>rcu_periph_clock_enable</STRONG> (Thumb, 36 bytes, Stack size 4 bytes, gd32c2x1_rcu.o(.text.rcu_periph_clock_enable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = rcu_periph_clock_enable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_config
+<LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_gpio_config
+<LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;i2c_bus0_gpio_init
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_gpio_int_init
+</UL>
+
+<P><STRONG><a name="[66]"></a>syscfg_exti_line_config</STRONG> (Thumb, 164 bytes, Stack size 20 bytes, gd32c2x1_syscfg.o(.text.syscfg_exti_line_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = syscfg_exti_line_config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_gpio_int_init
+</UL>
+
+<P><STRONG><a name="[4a]"></a>syscfg_interrupt_flag_get</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, gd32c2x1_syscfg.o(.text.syscfg_interrupt_flag_get))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = syscfg_interrupt_flag_get
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+
+<P><STRONG><a name="[88]"></a>table_init</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, nfc_command.o(.text.table_init))
+<BR><BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[7d]"></a>ln_q16</STRONG> (Thumb, 148 bytes, Stack size 32 bytes, hns_ntc.o(.text.ln_q16))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = ln_q16 &rArr; __aeabi_lmul
+</UL>
+<BR>[Calls]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_lmul
+</UL>
+<BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;hns_ntc_get_temp_c
+</UL>
+
+<P><STRONG><a name="[4b]"></a>system_clock_config</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, system_gd32c2x1.o(.text.system_clock_config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = system_clock_config &rArr; system_clock_irc48m &rArr; rcu_irc48mdiv_sys_clock_config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;system_clock_irc48m
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+
+<P><STRONG><a name="[8d]"></a>system_clock_irc48m</STRONG> (Thumb, 156 bytes, Stack size 24 bytes, system_gd32c2x1.o(.text.system_clock_irc48m))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = system_clock_irc48m &rArr; rcu_irc48mdiv_sys_clock_config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rcu_irc48mdiv_sys_clock_config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;system_clock_config
+</UL>
+
+<P><STRONG><a name="[8b]"></a>__NVIC_EnableIRQ</STRONG> (Thumb, 48 bytes, Stack size 4 bytes, gd32c2x1_misc.o(.text.__NVIC_EnableIRQ))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = __NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvic_irq_enable
+</UL>
+
+<P><STRONG><a name="[8a]"></a>__NVIC_SetPriority</STRONG> (Thumb, 128 bytes, Stack size 24 bytes, gd32c2x1_misc.o(.text.__NVIC_SetPriority))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __NVIC_SetPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvic_irq_enable
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3>
+<P><STRONG><a name="[46]"></a>_call_atexit_fns</STRONG> (ARM, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+<HR></body></html>

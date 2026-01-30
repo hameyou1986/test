@@ -1,0 +1,1557 @@
+	.text
+	.syntax unified
+	.eabi_attribute	67, "2.09"	@ Tag_conformance
+	.cpu	cortex-m23
+	.eabi_attribute	6, 16	@ Tag_CPU_arch
+	.eabi_attribute	7, 77	@ Tag_CPU_arch_profile
+	.eabi_attribute	8, 0	@ Tag_ARM_ISA_use
+	.eabi_attribute	9, 3	@ Tag_THUMB_ISA_use
+	.eabi_attribute	34, 0	@ Tag_CPU_unaligned_access
+	.eabi_attribute	17, 1	@ Tag_ABI_PCS_GOT_use
+	.eabi_attribute	20, 2	@ Tag_ABI_FP_denormal
+	.eabi_attribute	21, 0	@ Tag_ABI_FP_exceptions
+	.eabi_attribute	23, 1	@ Tag_ABI_FP_number_model
+	.eabi_attribute	24, 1	@ Tag_ABI_align_needed
+	.eabi_attribute	25, 1	@ Tag_ABI_align_preserved
+	.eabi_attribute	38, 1	@ Tag_ABI_FP_16bit_format
+	.eabi_attribute	18, 2	@ Tag_ABI_PCS_wchar_t
+	.eabi_attribute	26, 1	@ Tag_ABI_enum_size
+	.eabi_attribute	14, 0	@ Tag_ABI_PCS_R9_use
+	.file	"gd32c2x1_exti.c"
+	.file	1 "E:\\work\\CX_NFC_RX\\prj" "../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Include\\gd32c2x1_exti.h"
+	.file	2 "E:\\work\\CX_NFC_RX\\prj" "../std/GD32C2x1_Firmware_Library/CMSIS/GD/GD32C2x1/Include/gd32c2x1.h"
+	.file	3 "D:\\Keil_v5\\ARM\\ARMCLANG\\Bin\\..\\include" "stdint.h"
+	.section	.text.exti_deinit,"ax",%progbits
+	.hidden	exti_deinit                     @ -- Begin function exti_deinit
+	.globl	exti_deinit
+	.p2align	2
+	.type	exti_deinit,%function
+	.code	16                              @ @exti_deinit
+	.thumb_func
+exti_deinit:
+.Lfunc_begin0:
+	.file	4 "E:\\work\\CX_NFC_RX\\prj" "../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c"
+	.loc	4 46 0                          @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:46:0
+	.fnstart
+	.cfi_sections .debug_frame
+	.cfi_startproc
+@ %bb.0:
+	ldr	r1, __arm_cp.0_0
+	movs	r0, #0
+.Ltmp0:
+	.loc	4 48 16 prologue_end            @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:48:16
+	str	r0, [r1]
+	ldr	r1, __arm_cp.0_1
+	.loc	4 49 16                         @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:49:16
+	str	r0, [r1]
+	ldr	r1, __arm_cp.0_2
+	.loc	4 50 16                         @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:50:16
+	str	r0, [r1]
+	ldr	r1, __arm_cp.0_3
+	.loc	4 51 16                         @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:51:16
+	str	r0, [r1]
+	ldr	r1, __arm_cp.0_4
+	.loc	4 52 16                         @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:52:16
+	str	r0, [r1]
+	.loc	4 53 1                          @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:53:1
+	bx	lr
+.Ltmp1:
+	.p2align	2
+@ %bb.1:
+	.loc	4 0 1 is_stmt 0                 @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:1
+__arm_cp.0_0:
+	.long	1073808384                      @ 0x40010400
+.Lcpi_end0:
+	.size	__arm_cp.0_0, .Lcpi_end0-__arm_cp.0_0
+__arm_cp.0_1:
+	.long	1073808388                      @ 0x40010404
+.Lcpi_end1:
+	.size	__arm_cp.0_1, .Lcpi_end1-__arm_cp.0_1
+__arm_cp.0_2:
+	.long	1073808392                      @ 0x40010408
+.Lcpi_end2:
+	.size	__arm_cp.0_2, .Lcpi_end2-__arm_cp.0_2
+__arm_cp.0_3:
+	.long	1073808396                      @ 0x4001040c
+.Lcpi_end3:
+	.size	__arm_cp.0_3, .Lcpi_end3-__arm_cp.0_3
+__arm_cp.0_4:
+	.long	1073808400                      @ 0x40010410
+.Lcpi_end4:
+	.size	__arm_cp.0_4, .Lcpi_end4-__arm_cp.0_4
+.Lfunc_end0:
+	.size	exti_deinit, .Lfunc_end0-exti_deinit
+	.cfi_endproc
+	.cantunwind
+	.fnend
+                                        @ -- End function
+	.section	.text.exti_init,"ax",%progbits
+	.hidden	exti_init                       @ -- Begin function exti_init
+	.globl	exti_init
+	.p2align	2
+	.type	exti_init,%function
+	.code	16                              @ @exti_init
+	.thumb_func
+exti_init:
+.Lfunc_begin1:
+	.loc	4 76 0 is_stmt 1                @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:76:0
+	.fnstart
+	.cfi_startproc
+@ %bb.0:
+	.pad	#20
+	sub	sp, #20
+	.cfi_def_cfa_offset 20
+                                        @ kill: def $r3 killed $r2
+                                        @ kill: def $r3 killed $r1
+	str	r0, [sp, #16]
+	add	r0, sp, #12
+	strb	r1, [r0]
+	add	r1, sp, #8
+	strb	r2, [r1]
+.Ltmp2:
+	.loc	4 78 30 prologue_end            @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:78:30
+	ldr	r3, [sp, #16]
+	ldr	r2, __arm_cp.1_0
+	.loc	4 78 16 is_stmt 0               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:78:16
+	ldr	r1, [r2]
+	bics	r1, r3
+	str	r1, [r2]
+	.loc	4 79 29 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:79:29
+	ldr	r3, [sp, #16]
+	ldr	r2, __arm_cp.1_1
+	.loc	4 79 15 is_stmt 0               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:79:15
+	ldr	r1, [r2]
+	bics	r1, r3
+	str	r1, [r2]
+	.loc	4 80 29 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:80:29
+	ldr	r3, [sp, #16]
+	ldr	r2, __arm_cp.1_2
+	.loc	4 80 15 is_stmt 0               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:80:15
+	ldr	r1, [r2]
+	bics	r1, r3
+	str	r1, [r2]
+	.loc	4 81 29 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:81:29
+	ldr	r3, [sp, #16]
+	ldr	r2, __arm_cp.1_3
+	.loc	4 81 15 is_stmt 0               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:81:15
+	ldr	r1, [r2]
+	bics	r1, r3
+	str	r1, [r2]
+	.loc	4 84 12 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:84:12
+	ldrb	r0, [r0]
+	.loc	4 84 5 is_stmt 0                @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:84:5
+	str	r0, [sp, #4]                    @ 4-byte Spill
+	cbz	r0, .LBB1_2
+	b	.LBB1_1
+.LBB1_1:
+	ldr	r0, [sp, #4]                    @ 4-byte Reload
+	cmp	r0, #1
+	beq	.LBB1_3
+	b	.LBB1_4
+.LBB1_2:
+.Ltmp3:
+	.loc	4 86 33 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:86:33
+	ldr	r2, [sp, #16]
+	ldr	r1, __arm_cp.1_0
+	.loc	4 86 20 is_stmt 0               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:86:20
+	ldr	r0, [r1]
+	orrs	r0, r2
+	str	r0, [r1]
+	.loc	4 87 9 is_stmt 1                @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:87:9
+	b	.LBB1_5
+.LBB1_3:
+	.loc	4 89 32                         @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:89:32
+	ldr	r2, [sp, #16]
+	ldr	r1, __arm_cp.1_1
+	.loc	4 89 19 is_stmt 0               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:89:19
+	ldr	r0, [r1]
+	orrs	r0, r2
+	str	r0, [r1]
+	.loc	4 90 9 is_stmt 1                @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:90:9
+	b	.LBB1_5
+.LBB1_4:
+	.loc	4 92 9                          @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:92:9
+	b	.LBB1_5
+.Ltmp4:
+.LBB1_5:
+	.loc	4 0 9 is_stmt 0                 @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:9
+	add	r0, sp, #8
+	.loc	4 96 12 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:96:12
+	ldrb	r0, [r0]
+	.loc	4 96 5 is_stmt 0                @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:96:5
+	str	r0, [sp]                        @ 4-byte Spill
+	cmp	r0, #3
+	bhi	.LBB1_12
+@ %bb.6:
+	.loc	4 0 5                           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:5
+	ldr	r1, [sp]                        @ 4-byte Reload
+	lsls	r2, r1, #2
+	adr	r0, .LJTI1_0
+	adds	r0, r0, r2
+	mov	pc, r0
+@ %bb.7:
+	.p2align	2
+.LJTI1_0:
+	b.w	.LBB1_8
+	b.w	.LBB1_9
+	b.w	.LBB1_10
+	b.w	.LBB1_11
+.LBB1_8:
+.Ltmp5:
+	.loc	4 98 32 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:98:32
+	ldr	r2, [sp, #16]
+	ldr	r1, __arm_cp.1_2
+	.loc	4 98 19 is_stmt 0               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:98:19
+	ldr	r0, [r1]
+	orrs	r0, r2
+	str	r0, [r1]
+	.loc	4 99 33 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:99:33
+	ldr	r2, [sp, #16]
+	ldr	r1, __arm_cp.1_3
+	.loc	4 99 19 is_stmt 0               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:99:19
+	ldr	r0, [r1]
+	bics	r0, r2
+	str	r0, [r1]
+	.loc	4 100 9 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:100:9
+	b	.LBB1_13
+.LBB1_9:
+	.loc	4 102 33                        @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:102:33
+	ldr	r2, [sp, #16]
+	ldr	r1, __arm_cp.1_2
+	.loc	4 102 19 is_stmt 0              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:102:19
+	ldr	r0, [r1]
+	bics	r0, r2
+	str	r0, [r1]
+	.loc	4 103 32 is_stmt 1              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:103:32
+	ldr	r2, [sp, #16]
+	ldr	r1, __arm_cp.1_3
+	.loc	4 103 19 is_stmt 0              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:103:19
+	ldr	r0, [r1]
+	orrs	r0, r2
+	str	r0, [r1]
+	.loc	4 104 9 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:104:9
+	b	.LBB1_13
+.LBB1_10:
+	.loc	4 106 32                        @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:106:32
+	ldr	r2, [sp, #16]
+	ldr	r1, __arm_cp.1_2
+	.loc	4 106 19 is_stmt 0              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:106:19
+	ldr	r0, [r1]
+	orrs	r0, r2
+	str	r0, [r1]
+	.loc	4 107 32 is_stmt 1              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:107:32
+	ldr	r2, [sp, #16]
+	ldr	r1, __arm_cp.1_3
+	.loc	4 107 19 is_stmt 0              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:107:19
+	ldr	r0, [r1]
+	orrs	r0, r2
+	str	r0, [r1]
+	.loc	4 108 9 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:108:9
+	b	.LBB1_13
+.LBB1_11:
+	.loc	4 110 9                         @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:110:9
+	b	.LBB1_13
+.LBB1_12:
+	.loc	4 112 9                         @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:112:9
+	b	.LBB1_13
+.Ltmp6:
+.LBB1_13:
+	.loc	4 114 1                         @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:114:1
+	add	sp, #20
+	bx	lr
+.Ltmp7:
+	.p2align	2
+@ %bb.14:
+	.loc	4 0 1 is_stmt 0                 @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:1
+__arm_cp.1_0:
+	.long	1073808384                      @ 0x40010400
+.Lcpi_end5:
+	.size	__arm_cp.1_0, .Lcpi_end5-__arm_cp.1_0
+__arm_cp.1_1:
+	.long	1073808388                      @ 0x40010404
+.Lcpi_end6:
+	.size	__arm_cp.1_1, .Lcpi_end6-__arm_cp.1_1
+__arm_cp.1_2:
+	.long	1073808392                      @ 0x40010408
+.Lcpi_end7:
+	.size	__arm_cp.1_2, .Lcpi_end7-__arm_cp.1_2
+__arm_cp.1_3:
+	.long	1073808396                      @ 0x4001040c
+.Lcpi_end8:
+	.size	__arm_cp.1_3, .Lcpi_end8-__arm_cp.1_3
+.Lfunc_end1:
+	.size	exti_init, .Lfunc_end1-exti_init
+	.cfi_endproc
+	.cantunwind
+	.fnend
+                                        @ -- End function
+	.section	.text.exti_interrupt_enable,"ax",%progbits
+	.hidden	exti_interrupt_enable           @ -- Begin function exti_interrupt_enable
+	.globl	exti_interrupt_enable
+	.p2align	2
+	.type	exti_interrupt_enable,%function
+	.code	16                              @ @exti_interrupt_enable
+	.thumb_func
+exti_interrupt_enable:
+.Lfunc_begin2:
+	.loc	4 125 0 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:125:0
+	.fnstart
+	.cfi_startproc
+@ %bb.0:
+	.pad	#4
+	sub	sp, #4
+	.cfi_def_cfa_offset 4
+	str	r0, [sp]
+.Ltmp8:
+	.loc	4 126 29 prologue_end           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:126:29
+	ldr	r2, [sp]
+	ldr	r1, __arm_cp.2_0
+	.loc	4 126 16 is_stmt 0              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:126:16
+	ldr	r0, [r1]
+	orrs	r0, r2
+	str	r0, [r1]
+	.loc	4 127 1 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:127:1
+	add	sp, #4
+	bx	lr
+.Ltmp9:
+	.p2align	2
+@ %bb.1:
+	.loc	4 0 1 is_stmt 0                 @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:1
+__arm_cp.2_0:
+	.long	1073808384                      @ 0x40010400
+.Lcpi_end9:
+	.size	__arm_cp.2_0, .Lcpi_end9-__arm_cp.2_0
+.Lfunc_end2:
+	.size	exti_interrupt_enable, .Lfunc_end2-exti_interrupt_enable
+	.cfi_endproc
+	.cantunwind
+	.fnend
+                                        @ -- End function
+	.section	.text.exti_interrupt_disable,"ax",%progbits
+	.hidden	exti_interrupt_disable          @ -- Begin function exti_interrupt_disable
+	.globl	exti_interrupt_disable
+	.p2align	2
+	.type	exti_interrupt_disable,%function
+	.code	16                              @ @exti_interrupt_disable
+	.thumb_func
+exti_interrupt_disable:
+.Lfunc_begin3:
+	.loc	4 138 0 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:138:0
+	.fnstart
+	.cfi_startproc
+@ %bb.0:
+	.pad	#4
+	sub	sp, #4
+	.cfi_def_cfa_offset 4
+	str	r0, [sp]
+.Ltmp10:
+	.loc	4 139 30 prologue_end           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:139:30
+	ldr	r2, [sp]
+	ldr	r1, __arm_cp.3_0
+	.loc	4 139 16 is_stmt 0              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:139:16
+	ldr	r0, [r1]
+	bics	r0, r2
+	str	r0, [r1]
+	.loc	4 140 1 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:140:1
+	add	sp, #4
+	bx	lr
+.Ltmp11:
+	.p2align	2
+@ %bb.1:
+	.loc	4 0 1 is_stmt 0                 @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:1
+__arm_cp.3_0:
+	.long	1073808384                      @ 0x40010400
+.Lcpi_end10:
+	.size	__arm_cp.3_0, .Lcpi_end10-__arm_cp.3_0
+.Lfunc_end3:
+	.size	exti_interrupt_disable, .Lfunc_end3-exti_interrupt_disable
+	.cfi_endproc
+	.cantunwind
+	.fnend
+                                        @ -- End function
+	.section	.text.exti_event_enable,"ax",%progbits
+	.hidden	exti_event_enable               @ -- Begin function exti_event_enable
+	.globl	exti_event_enable
+	.p2align	2
+	.type	exti_event_enable,%function
+	.code	16                              @ @exti_event_enable
+	.thumb_func
+exti_event_enable:
+.Lfunc_begin4:
+	.loc	4 151 0 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:151:0
+	.fnstart
+	.cfi_startproc
+@ %bb.0:
+	.pad	#4
+	sub	sp, #4
+	.cfi_def_cfa_offset 4
+	str	r0, [sp]
+.Ltmp12:
+	.loc	4 152 28 prologue_end           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:152:28
+	ldr	r2, [sp]
+	ldr	r1, __arm_cp.4_0
+	.loc	4 152 15 is_stmt 0              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:152:15
+	ldr	r0, [r1]
+	orrs	r0, r2
+	str	r0, [r1]
+	.loc	4 153 1 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:153:1
+	add	sp, #4
+	bx	lr
+.Ltmp13:
+	.p2align	2
+@ %bb.1:
+	.loc	4 0 1 is_stmt 0                 @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:1
+__arm_cp.4_0:
+	.long	1073808388                      @ 0x40010404
+.Lcpi_end11:
+	.size	__arm_cp.4_0, .Lcpi_end11-__arm_cp.4_0
+.Lfunc_end4:
+	.size	exti_event_enable, .Lfunc_end4-exti_event_enable
+	.cfi_endproc
+	.cantunwind
+	.fnend
+                                        @ -- End function
+	.section	.text.exti_event_disable,"ax",%progbits
+	.hidden	exti_event_disable              @ -- Begin function exti_event_disable
+	.globl	exti_event_disable
+	.p2align	2
+	.type	exti_event_disable,%function
+	.code	16                              @ @exti_event_disable
+	.thumb_func
+exti_event_disable:
+.Lfunc_begin5:
+	.loc	4 164 0 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:164:0
+	.fnstart
+	.cfi_startproc
+@ %bb.0:
+	.pad	#4
+	sub	sp, #4
+	.cfi_def_cfa_offset 4
+	str	r0, [sp]
+.Ltmp14:
+	.loc	4 165 29 prologue_end           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:165:29
+	ldr	r2, [sp]
+	ldr	r1, __arm_cp.5_0
+	.loc	4 165 15 is_stmt 0              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:165:15
+	ldr	r0, [r1]
+	bics	r0, r2
+	str	r0, [r1]
+	.loc	4 166 1 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:166:1
+	add	sp, #4
+	bx	lr
+.Ltmp15:
+	.p2align	2
+@ %bb.1:
+	.loc	4 0 1 is_stmt 0                 @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:1
+__arm_cp.5_0:
+	.long	1073808388                      @ 0x40010404
+.Lcpi_end12:
+	.size	__arm_cp.5_0, .Lcpi_end12-__arm_cp.5_0
+.Lfunc_end5:
+	.size	exti_event_disable, .Lfunc_end5-exti_event_disable
+	.cfi_endproc
+	.cantunwind
+	.fnend
+                                        @ -- End function
+	.section	.text.exti_software_interrupt_enable,"ax",%progbits
+	.hidden	exti_software_interrupt_enable  @ -- Begin function exti_software_interrupt_enable
+	.globl	exti_software_interrupt_enable
+	.p2align	2
+	.type	exti_software_interrupt_enable,%function
+	.code	16                              @ @exti_software_interrupt_enable
+	.thumb_func
+exti_software_interrupt_enable:
+.Lfunc_begin6:
+	.loc	4 177 0 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:177:0
+	.fnstart
+	.cfi_startproc
+@ %bb.0:
+	.pad	#4
+	sub	sp, #4
+	.cfi_def_cfa_offset 4
+	str	r0, [sp]
+.Ltmp16:
+	.loc	4 178 29 prologue_end           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:178:29
+	ldr	r2, [sp]
+	ldr	r1, __arm_cp.6_0
+	.loc	4 178 16 is_stmt 0              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:178:16
+	ldr	r0, [r1]
+	orrs	r0, r2
+	str	r0, [r1]
+	.loc	4 179 1 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:179:1
+	add	sp, #4
+	bx	lr
+.Ltmp17:
+	.p2align	2
+@ %bb.1:
+	.loc	4 0 1 is_stmt 0                 @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:1
+__arm_cp.6_0:
+	.long	1073808400                      @ 0x40010410
+.Lcpi_end13:
+	.size	__arm_cp.6_0, .Lcpi_end13-__arm_cp.6_0
+.Lfunc_end6:
+	.size	exti_software_interrupt_enable, .Lfunc_end6-exti_software_interrupt_enable
+	.cfi_endproc
+	.cantunwind
+	.fnend
+                                        @ -- End function
+	.section	.text.exti_software_interrupt_disable,"ax",%progbits
+	.hidden	exti_software_interrupt_disable @ -- Begin function exti_software_interrupt_disable
+	.globl	exti_software_interrupt_disable
+	.p2align	2
+	.type	exti_software_interrupt_disable,%function
+	.code	16                              @ @exti_software_interrupt_disable
+	.thumb_func
+exti_software_interrupt_disable:
+.Lfunc_begin7:
+	.loc	4 190 0 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:190:0
+	.fnstart
+	.cfi_startproc
+@ %bb.0:
+	.pad	#4
+	sub	sp, #4
+	.cfi_def_cfa_offset 4
+	str	r0, [sp]
+.Ltmp18:
+	.loc	4 191 30 prologue_end           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:191:30
+	ldr	r2, [sp]
+	ldr	r1, __arm_cp.7_0
+	.loc	4 191 16 is_stmt 0              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:191:16
+	ldr	r0, [r1]
+	bics	r0, r2
+	str	r0, [r1]
+	.loc	4 192 1 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:192:1
+	add	sp, #4
+	bx	lr
+.Ltmp19:
+	.p2align	2
+@ %bb.1:
+	.loc	4 0 1 is_stmt 0                 @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:1
+__arm_cp.7_0:
+	.long	1073808400                      @ 0x40010410
+.Lcpi_end14:
+	.size	__arm_cp.7_0, .Lcpi_end14-__arm_cp.7_0
+.Lfunc_end7:
+	.size	exti_software_interrupt_disable, .Lfunc_end7-exti_software_interrupt_disable
+	.cfi_endproc
+	.cantunwind
+	.fnend
+                                        @ -- End function
+	.section	.text.exti_flag_get,"ax",%progbits
+	.hidden	exti_flag_get                   @ -- Begin function exti_flag_get
+	.globl	exti_flag_get
+	.p2align	2
+	.type	exti_flag_get,%function
+	.code	16                              @ @exti_flag_get
+	.thumb_func
+exti_flag_get:
+.Lfunc_begin8:
+	.loc	4 203 0 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:203:0
+	.fnstart
+	.cfi_startproc
+@ %bb.0:
+	.pad	#8
+	sub	sp, #8
+	.cfi_def_cfa_offset 8
+	str	r0, [sp, #4]
+	mov	r1, sp
+	movs	r0, #0
+.Ltmp20:
+	.loc	4 204 16 prologue_end           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:204:16
+	strb	r0, [r1]
+	ldr	r0, __arm_cp.8_0
+.Ltmp21:
+	.loc	4 206 15                        @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:206:15
+	ldr	r0, [r0]
+	.loc	4 206 35 is_stmt 0              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:206:35
+	ldr	r1, [sp, #4]
+.Ltmp22:
+	.loc	4 206 8                         @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:206:8
+	tst	r0, r1
+	beq	.LBB8_2
+	b	.LBB8_1
+.LBB8_1:
+	.loc	4 0 8                           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:8
+	mov	r1, sp
+	movs	r0, #1
+.Ltmp23:
+	.loc	4 207 15 is_stmt 1              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:207:15
+	strb	r0, [r1]
+	.loc	4 208 5                         @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:208:5
+	b	.LBB8_3
+.Ltmp24:
+.LBB8_2:
+	.loc	4 0 5 is_stmt 0                 @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:5
+	mov	r1, sp
+	movs	r0, #0
+.Ltmp25:
+	.loc	4 209 15 is_stmt 1              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:209:15
+	strb	r0, [r1]
+	b	.LBB8_3
+.Ltmp26:
+.LBB8_3:
+	.loc	4 0 15 is_stmt 0                @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:15
+	mov	r0, sp
+	.loc	4 212 12 is_stmt 1              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:212:12
+	ldrb	r0, [r0]
+	.loc	4 212 5 is_stmt 0               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:212:5
+	add	sp, #8
+	bx	lr
+.Ltmp27:
+	.p2align	2
+@ %bb.4:
+	.loc	4 0 5                           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:5
+__arm_cp.8_0:
+	.long	1073808404                      @ 0x40010414
+.Lcpi_end15:
+	.size	__arm_cp.8_0, .Lcpi_end15-__arm_cp.8_0
+.Lfunc_end8:
+	.size	exti_flag_get, .Lfunc_end8-exti_flag_get
+	.cfi_endproc
+	.cantunwind
+	.fnend
+                                        @ -- End function
+	.section	.text.exti_flag_clear,"ax",%progbits
+	.hidden	exti_flag_clear                 @ -- Begin function exti_flag_clear
+	.globl	exti_flag_clear
+	.p2align	2
+	.type	exti_flag_clear,%function
+	.code	16                              @ @exti_flag_clear
+	.thumb_func
+exti_flag_clear:
+.Lfunc_begin9:
+	.loc	4 224 0 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:224:0
+	.fnstart
+	.cfi_startproc
+@ %bb.0:
+	.pad	#4
+	sub	sp, #4
+	.cfi_def_cfa_offset 4
+	str	r0, [sp]
+.Ltmp28:
+	.loc	4 225 25 prologue_end           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:225:25
+	ldr	r0, [sp]
+	ldr	r1, __arm_cp.9_0
+	.loc	4 225 13 is_stmt 0              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:225:13
+	str	r0, [r1]
+	.loc	4 226 1 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:226:1
+	add	sp, #4
+	bx	lr
+.Ltmp29:
+	.p2align	2
+@ %bb.1:
+	.loc	4 0 1 is_stmt 0                 @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:1
+__arm_cp.9_0:
+	.long	1073808404                      @ 0x40010414
+.Lcpi_end16:
+	.size	__arm_cp.9_0, .Lcpi_end16-__arm_cp.9_0
+.Lfunc_end9:
+	.size	exti_flag_clear, .Lfunc_end9-exti_flag_clear
+	.cfi_endproc
+	.cantunwind
+	.fnend
+                                        @ -- End function
+	.section	.text.exti_interrupt_flag_get,"ax",%progbits
+	.hidden	exti_interrupt_flag_get         @ -- Begin function exti_interrupt_flag_get
+	.globl	exti_interrupt_flag_get
+	.p2align	2
+	.type	exti_interrupt_flag_get,%function
+	.code	16                              @ @exti_interrupt_flag_get
+	.thumb_func
+exti_interrupt_flag_get:
+.Lfunc_begin10:
+	.loc	4 237 0 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:237:0
+	.fnstart
+	.cfi_startproc
+@ %bb.0:
+	.pad	#8
+	sub	sp, #8
+	.cfi_def_cfa_offset 8
+	str	r0, [sp, #4]
+	mov	r1, sp
+	movs	r0, #0
+.Ltmp30:
+	.loc	4 238 16 prologue_end           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:238:16
+	strb	r0, [r1]
+	ldr	r0, __arm_cp.10_0
+.Ltmp31:
+	.loc	4 240 15                        @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:240:15
+	ldr	r0, [r0]
+	.loc	4 240 35 is_stmt 0              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:240:35
+	ldr	r1, [sp, #4]
+.Ltmp32:
+	.loc	4 240 8                         @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:240:8
+	tst	r0, r1
+	beq	.LBB10_2
+	b	.LBB10_1
+.LBB10_1:
+	.loc	4 0 8                           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:8
+	mov	r1, sp
+	movs	r0, #1
+.Ltmp33:
+	.loc	4 241 15 is_stmt 1              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:241:15
+	strb	r0, [r1]
+	.loc	4 242 5                         @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:242:5
+	b	.LBB10_3
+.Ltmp34:
+.LBB10_2:
+	.loc	4 0 5 is_stmt 0                 @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:5
+	mov	r1, sp
+	movs	r0, #0
+.Ltmp35:
+	.loc	4 243 15 is_stmt 1              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:243:15
+	strb	r0, [r1]
+	b	.LBB10_3
+.Ltmp36:
+.LBB10_3:
+	.loc	4 0 15 is_stmt 0                @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:15
+	mov	r0, sp
+	.loc	4 246 12 is_stmt 1              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:246:12
+	ldrb	r0, [r0]
+	.loc	4 246 5 is_stmt 0               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:246:5
+	add	sp, #8
+	bx	lr
+.Ltmp37:
+	.p2align	2
+@ %bb.4:
+	.loc	4 0 5                           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:5
+__arm_cp.10_0:
+	.long	1073808404                      @ 0x40010414
+.Lcpi_end17:
+	.size	__arm_cp.10_0, .Lcpi_end17-__arm_cp.10_0
+.Lfunc_end10:
+	.size	exti_interrupt_flag_get, .Lfunc_end10-exti_interrupt_flag_get
+	.cfi_endproc
+	.cantunwind
+	.fnend
+                                        @ -- End function
+	.section	.text.exti_interrupt_flag_clear,"ax",%progbits
+	.hidden	exti_interrupt_flag_clear       @ -- Begin function exti_interrupt_flag_clear
+	.globl	exti_interrupt_flag_clear
+	.p2align	2
+	.type	exti_interrupt_flag_clear,%function
+	.code	16                              @ @exti_interrupt_flag_clear
+	.thumb_func
+exti_interrupt_flag_clear:
+.Lfunc_begin11:
+	.loc	4 258 0 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:258:0
+	.fnstart
+	.cfi_startproc
+@ %bb.0:
+	.pad	#4
+	sub	sp, #4
+	.cfi_def_cfa_offset 4
+	str	r0, [sp]
+.Ltmp38:
+	.loc	4 259 25 prologue_end           @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:259:25
+	ldr	r0, [sp]
+	ldr	r1, __arm_cp.11_0
+	.loc	4 259 13 is_stmt 0              @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:259:13
+	str	r0, [r1]
+	.loc	4 260 1 is_stmt 1               @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:260:1
+	add	sp, #4
+	bx	lr
+.Ltmp39:
+	.p2align	2
+@ %bb.1:
+	.loc	4 0 1 is_stmt 0                 @ ../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source/gd32c2x1_exti.c:0:1
+__arm_cp.11_0:
+	.long	1073808404                      @ 0x40010414
+.Lcpi_end18:
+	.size	__arm_cp.11_0, .Lcpi_end18-__arm_cp.11_0
+.Lfunc_end11:
+	.size	exti_interrupt_flag_clear, .Lfunc_end11-exti_interrupt_flag_clear
+	.cfi_endproc
+	.cantunwind
+	.fnend
+                                        @ -- End function
+	.section	.debug_abbrev,"",%progbits
+	.byte	1                               @ Abbreviation Code
+	.byte	17                              @ DW_TAG_compile_unit
+	.byte	1                               @ DW_CHILDREN_yes
+	.byte	37                              @ DW_AT_producer
+	.byte	14                              @ DW_FORM_strp
+	.byte	19                              @ DW_AT_language
+	.byte	5                               @ DW_FORM_data2
+	.byte	3                               @ DW_AT_name
+	.byte	14                              @ DW_FORM_strp
+	.byte	16                              @ DW_AT_stmt_list
+	.byte	23                              @ DW_FORM_sec_offset
+	.byte	27                              @ DW_AT_comp_dir
+	.byte	14                              @ DW_FORM_strp
+	.byte	17                              @ DW_AT_low_pc
+	.byte	1                               @ DW_FORM_addr
+	.byte	85                              @ DW_AT_ranges
+	.byte	23                              @ DW_FORM_sec_offset
+	.byte	0                               @ EOM(1)
+	.byte	0                               @ EOM(2)
+	.byte	2                               @ Abbreviation Code
+	.byte	4                               @ DW_TAG_enumeration_type
+	.byte	1                               @ DW_CHILDREN_yes
+	.byte	73                              @ DW_AT_type
+	.byte	19                              @ DW_FORM_ref4
+	.byte	11                              @ DW_AT_byte_size
+	.byte	11                              @ DW_FORM_data1
+	.byte	58                              @ DW_AT_decl_file
+	.byte	11                              @ DW_FORM_data1
+	.byte	59                              @ DW_AT_decl_line
+	.byte	11                              @ DW_FORM_data1
+	.byte	0                               @ EOM(1)
+	.byte	0                               @ EOM(2)
+	.byte	3                               @ Abbreviation Code
+	.byte	40                              @ DW_TAG_enumerator
+	.byte	0                               @ DW_CHILDREN_no
+	.byte	3                               @ DW_AT_name
+	.byte	14                              @ DW_FORM_strp
+	.byte	28                              @ DW_AT_const_value
+	.byte	15                              @ DW_FORM_udata
+	.byte	0                               @ EOM(1)
+	.byte	0                               @ EOM(2)
+	.byte	4                               @ Abbreviation Code
+	.byte	36                              @ DW_TAG_base_type
+	.byte	0                               @ DW_CHILDREN_no
+	.byte	3                               @ DW_AT_name
+	.byte	14                              @ DW_FORM_strp
+	.byte	62                              @ DW_AT_encoding
+	.byte	11                              @ DW_FORM_data1
+	.byte	11                              @ DW_AT_byte_size
+	.byte	11                              @ DW_FORM_data1
+	.byte	0                               @ EOM(1)
+	.byte	0                               @ EOM(2)
+	.byte	5                               @ Abbreviation Code
+	.byte	22                              @ DW_TAG_typedef
+	.byte	0                               @ DW_CHILDREN_no
+	.byte	73                              @ DW_AT_type
+	.byte	19                              @ DW_FORM_ref4
+	.byte	3                               @ DW_AT_name
+	.byte	14                              @ DW_FORM_strp
+	.byte	58                              @ DW_AT_decl_file
+	.byte	11                              @ DW_FORM_data1
+	.byte	59                              @ DW_AT_decl_line
+	.byte	11                              @ DW_FORM_data1
+	.byte	0                               @ EOM(1)
+	.byte	0                               @ EOM(2)
+	.byte	6                               @ Abbreviation Code
+	.byte	15                              @ DW_TAG_pointer_type
+	.byte	0                               @ DW_CHILDREN_no
+	.byte	73                              @ DW_AT_type
+	.byte	19                              @ DW_FORM_ref4
+	.byte	0                               @ EOM(1)
+	.byte	0                               @ EOM(2)
+	.byte	7                               @ Abbreviation Code
+	.byte	53                              @ DW_TAG_volatile_type
+	.byte	0                               @ DW_CHILDREN_no
+	.byte	73                              @ DW_AT_type
+	.byte	19                              @ DW_FORM_ref4
+	.byte	0                               @ EOM(1)
+	.byte	0                               @ EOM(2)
+	.byte	8                               @ Abbreviation Code
+	.byte	46                              @ DW_TAG_subprogram
+	.byte	0                               @ DW_CHILDREN_no
+	.byte	17                              @ DW_AT_low_pc
+	.byte	1                               @ DW_FORM_addr
+	.byte	18                              @ DW_AT_high_pc
+	.byte	6                               @ DW_FORM_data4
+	.byte	64                              @ DW_AT_frame_base
+	.byte	24                              @ DW_FORM_exprloc
+	.byte	3                               @ DW_AT_name
+	.byte	14                              @ DW_FORM_strp
+	.byte	58                              @ DW_AT_decl_file
+	.byte	11                              @ DW_FORM_data1
+	.byte	59                              @ DW_AT_decl_line
+	.byte	11                              @ DW_FORM_data1
+	.byte	39                              @ DW_AT_prototyped
+	.byte	25                              @ DW_FORM_flag_present
+	.byte	63                              @ DW_AT_external
+	.byte	25                              @ DW_FORM_flag_present
+	.byte	0                               @ EOM(1)
+	.byte	0                               @ EOM(2)
+	.byte	9                               @ Abbreviation Code
+	.byte	46                              @ DW_TAG_subprogram
+	.byte	1                               @ DW_CHILDREN_yes
+	.byte	17                              @ DW_AT_low_pc
+	.byte	1                               @ DW_FORM_addr
+	.byte	18                              @ DW_AT_high_pc
+	.byte	6                               @ DW_FORM_data4
+	.byte	64                              @ DW_AT_frame_base
+	.byte	24                              @ DW_FORM_exprloc
+	.byte	3                               @ DW_AT_name
+	.byte	14                              @ DW_FORM_strp
+	.byte	58                              @ DW_AT_decl_file
+	.byte	11                              @ DW_FORM_data1
+	.byte	59                              @ DW_AT_decl_line
+	.byte	11                              @ DW_FORM_data1
+	.byte	39                              @ DW_AT_prototyped
+	.byte	25                              @ DW_FORM_flag_present
+	.byte	63                              @ DW_AT_external
+	.byte	25                              @ DW_FORM_flag_present
+	.byte	0                               @ EOM(1)
+	.byte	0                               @ EOM(2)
+	.byte	10                              @ Abbreviation Code
+	.byte	5                               @ DW_TAG_formal_parameter
+	.byte	0                               @ DW_CHILDREN_no
+	.byte	2                               @ DW_AT_location
+	.byte	24                              @ DW_FORM_exprloc
+	.byte	3                               @ DW_AT_name
+	.byte	14                              @ DW_FORM_strp
+	.byte	58                              @ DW_AT_decl_file
+	.byte	11                              @ DW_FORM_data1
+	.byte	59                              @ DW_AT_decl_line
+	.byte	11                              @ DW_FORM_data1
+	.byte	73                              @ DW_AT_type
+	.byte	19                              @ DW_FORM_ref4
+	.byte	0                               @ EOM(1)
+	.byte	0                               @ EOM(2)
+	.byte	11                              @ Abbreviation Code
+	.byte	46                              @ DW_TAG_subprogram
+	.byte	1                               @ DW_CHILDREN_yes
+	.byte	17                              @ DW_AT_low_pc
+	.byte	1                               @ DW_FORM_addr
+	.byte	18                              @ DW_AT_high_pc
+	.byte	6                               @ DW_FORM_data4
+	.byte	64                              @ DW_AT_frame_base
+	.byte	24                              @ DW_FORM_exprloc
+	.byte	3                               @ DW_AT_name
+	.byte	14                              @ DW_FORM_strp
+	.byte	58                              @ DW_AT_decl_file
+	.byte	11                              @ DW_FORM_data1
+	.byte	59                              @ DW_AT_decl_line
+	.byte	11                              @ DW_FORM_data1
+	.byte	39                              @ DW_AT_prototyped
+	.byte	25                              @ DW_FORM_flag_present
+	.byte	73                              @ DW_AT_type
+	.byte	19                              @ DW_FORM_ref4
+	.byte	63                              @ DW_AT_external
+	.byte	25                              @ DW_FORM_flag_present
+	.byte	0                               @ EOM(1)
+	.byte	0                               @ EOM(2)
+	.byte	12                              @ Abbreviation Code
+	.byte	52                              @ DW_TAG_variable
+	.byte	0                               @ DW_CHILDREN_no
+	.byte	2                               @ DW_AT_location
+	.byte	24                              @ DW_FORM_exprloc
+	.byte	3                               @ DW_AT_name
+	.byte	14                              @ DW_FORM_strp
+	.byte	58                              @ DW_AT_decl_file
+	.byte	11                              @ DW_FORM_data1
+	.byte	59                              @ DW_AT_decl_line
+	.byte	11                              @ DW_FORM_data1
+	.byte	73                              @ DW_AT_type
+	.byte	19                              @ DW_FORM_ref4
+	.byte	0                               @ EOM(1)
+	.byte	0                               @ EOM(2)
+	.byte	13                              @ Abbreviation Code
+	.byte	46                              @ DW_TAG_subprogram
+	.byte	1                               @ DW_CHILDREN_yes
+	.byte	17                              @ DW_AT_low_pc
+	.byte	1                               @ DW_FORM_addr
+	.byte	18                              @ DW_AT_high_pc
+	.byte	6                               @ DW_FORM_data4
+	.byte	64                              @ DW_AT_frame_base
+	.byte	24                              @ DW_FORM_exprloc
+	.byte	3                               @ DW_AT_name
+	.byte	14                              @ DW_FORM_strp
+	.byte	58                              @ DW_AT_decl_file
+	.byte	11                              @ DW_FORM_data1
+	.byte	59                              @ DW_AT_decl_line
+	.byte	5                               @ DW_FORM_data2
+	.byte	39                              @ DW_AT_prototyped
+	.byte	25                              @ DW_FORM_flag_present
+	.byte	63                              @ DW_AT_external
+	.byte	25                              @ DW_FORM_flag_present
+	.byte	0                               @ EOM(1)
+	.byte	0                               @ EOM(2)
+	.byte	14                              @ Abbreviation Code
+	.byte	5                               @ DW_TAG_formal_parameter
+	.byte	0                               @ DW_CHILDREN_no
+	.byte	2                               @ DW_AT_location
+	.byte	24                              @ DW_FORM_exprloc
+	.byte	3                               @ DW_AT_name
+	.byte	14                              @ DW_FORM_strp
+	.byte	58                              @ DW_AT_decl_file
+	.byte	11                              @ DW_FORM_data1
+	.byte	59                              @ DW_AT_decl_line
+	.byte	5                               @ DW_FORM_data2
+	.byte	73                              @ DW_AT_type
+	.byte	19                              @ DW_FORM_ref4
+	.byte	0                               @ EOM(1)
+	.byte	0                               @ EOM(2)
+	.byte	0                               @ EOM(3)
+	.section	.debug_info,"",%progbits
+.Lcu_begin0:
+	.long	.Ldebug_info_end0-.Ldebug_info_start0 @ Length of Unit
+.Ldebug_info_start0:
+	.short	4                               @ DWARF version number
+	.long	.debug_abbrev                   @ Offset Into Abbrev. Section
+	.byte	4                               @ Address Size (in bytes)
+	.byte	1                               @ Abbrev [1] 0xb:0x320 DW_TAG_compile_unit
+	.long	.Linfo_string0                  @ DW_AT_producer
+	.short	12                              @ DW_AT_language
+	.long	.Linfo_string1                  @ DW_AT_name
+	.long	.Lline_table_start0             @ DW_AT_stmt_list
+	.long	.Linfo_string2                  @ DW_AT_comp_dir
+	.long	0                               @ DW_AT_low_pc
+	.long	.Ldebug_ranges0                 @ DW_AT_ranges
+	.byte	2                               @ Abbrev [2] 0x26:0xb7 DW_TAG_enumeration_type
+	.long	221                             @ DW_AT_type
+	.byte	4                               @ DW_AT_byte_size
+	.byte	1                               @ DW_AT_decl_file
+	.byte	211                             @ DW_AT_decl_line
+	.byte	3                               @ Abbrev [3] 0x2e:0x6 DW_TAG_enumerator
+	.long	.Linfo_string4                  @ DW_AT_name
+	.byte	1                               @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x34:0x6 DW_TAG_enumerator
+	.long	.Linfo_string5                  @ DW_AT_name
+	.byte	2                               @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x3a:0x6 DW_TAG_enumerator
+	.long	.Linfo_string6                  @ DW_AT_name
+	.byte	4                               @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x40:0x6 DW_TAG_enumerator
+	.long	.Linfo_string7                  @ DW_AT_name
+	.byte	8                               @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x46:0x6 DW_TAG_enumerator
+	.long	.Linfo_string8                  @ DW_AT_name
+	.byte	16                              @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x4c:0x6 DW_TAG_enumerator
+	.long	.Linfo_string9                  @ DW_AT_name
+	.byte	32                              @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x52:0x6 DW_TAG_enumerator
+	.long	.Linfo_string10                 @ DW_AT_name
+	.byte	64                              @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x58:0x7 DW_TAG_enumerator
+	.long	.Linfo_string11                 @ DW_AT_name
+	.ascii	"\200\001"                      @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x5f:0x7 DW_TAG_enumerator
+	.long	.Linfo_string12                 @ DW_AT_name
+	.ascii	"\200\002"                      @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x66:0x7 DW_TAG_enumerator
+	.long	.Linfo_string13                 @ DW_AT_name
+	.ascii	"\200\004"                      @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x6d:0x7 DW_TAG_enumerator
+	.long	.Linfo_string14                 @ DW_AT_name
+	.ascii	"\200\b"                        @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x74:0x7 DW_TAG_enumerator
+	.long	.Linfo_string15                 @ DW_AT_name
+	.ascii	"\200\020"                      @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x7b:0x7 DW_TAG_enumerator
+	.long	.Linfo_string16                 @ DW_AT_name
+	.ascii	"\200 "                         @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x82:0x7 DW_TAG_enumerator
+	.long	.Linfo_string17                 @ DW_AT_name
+	.ascii	"\200@"                         @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x89:0x8 DW_TAG_enumerator
+	.long	.Linfo_string18                 @ DW_AT_name
+	.ascii	"\200\200\001"                  @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x91:0x8 DW_TAG_enumerator
+	.long	.Linfo_string19                 @ DW_AT_name
+	.ascii	"\200\200\002"                  @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x99:0x8 DW_TAG_enumerator
+	.long	.Linfo_string20                 @ DW_AT_name
+	.ascii	"\200\200\004"                  @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0xa1:0x8 DW_TAG_enumerator
+	.long	.Linfo_string21                 @ DW_AT_name
+	.ascii	"\200\200\b"                    @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0xa9:0x8 DW_TAG_enumerator
+	.long	.Linfo_string22                 @ DW_AT_name
+	.ascii	"\200\200\020"                  @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0xb1:0x8 DW_TAG_enumerator
+	.long	.Linfo_string23                 @ DW_AT_name
+	.ascii	"\200\200 "                     @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0xb9:0x8 DW_TAG_enumerator
+	.long	.Linfo_string24                 @ DW_AT_name
+	.ascii	"\200\200@"                     @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0xc1:0x9 DW_TAG_enumerator
+	.long	.Linfo_string25                 @ DW_AT_name
+	.ascii	"\200\200\200\001"              @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0xca:0x9 DW_TAG_enumerator
+	.long	.Linfo_string26                 @ DW_AT_name
+	.ascii	"\200\200\200\002"              @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0xd3:0x9 DW_TAG_enumerator
+	.long	.Linfo_string27                 @ DW_AT_name
+	.ascii	"\200\200\200\004"              @ DW_AT_const_value
+	.byte	0                               @ End Of Children Mark
+	.byte	4                               @ Abbrev [4] 0xdd:0x7 DW_TAG_base_type
+	.long	.Linfo_string3                  @ DW_AT_name
+	.byte	7                               @ DW_AT_encoding
+	.byte	4                               @ DW_AT_byte_size
+	.byte	2                               @ Abbrev [2] 0xe4:0x15 DW_TAG_enumeration_type
+	.long	249                             @ DW_AT_type
+	.byte	1                               @ DW_AT_byte_size
+	.byte	1                               @ DW_AT_decl_file
+	.byte	239                             @ DW_AT_decl_line
+	.byte	3                               @ Abbrev [3] 0xec:0x6 DW_TAG_enumerator
+	.long	.Linfo_string29                 @ DW_AT_name
+	.byte	0                               @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0xf2:0x6 DW_TAG_enumerator
+	.long	.Linfo_string30                 @ DW_AT_name
+	.byte	1                               @ DW_AT_const_value
+	.byte	0                               @ End Of Children Mark
+	.byte	4                               @ Abbrev [4] 0xf9:0x7 DW_TAG_base_type
+	.long	.Linfo_string28                 @ DW_AT_name
+	.byte	8                               @ DW_AT_encoding
+	.byte	1                               @ DW_AT_byte_size
+	.byte	2                               @ Abbrev [2] 0x100:0x21 DW_TAG_enumeration_type
+	.long	249                             @ DW_AT_type
+	.byte	1                               @ DW_AT_byte_size
+	.byte	1                               @ DW_AT_decl_file
+	.byte	245                             @ DW_AT_decl_line
+	.byte	3                               @ Abbrev [3] 0x108:0x6 DW_TAG_enumerator
+	.long	.Linfo_string31                 @ DW_AT_name
+	.byte	0                               @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x10e:0x6 DW_TAG_enumerator
+	.long	.Linfo_string32                 @ DW_AT_name
+	.byte	1                               @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x114:0x6 DW_TAG_enumerator
+	.long	.Linfo_string33                 @ DW_AT_name
+	.byte	2                               @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x11a:0x6 DW_TAG_enumerator
+	.long	.Linfo_string34                 @ DW_AT_name
+	.byte	3                               @ DW_AT_const_value
+	.byte	0                               @ End Of Children Mark
+	.byte	2                               @ Abbrev [2] 0x121:0x15 DW_TAG_enumeration_type
+	.long	249                             @ DW_AT_type
+	.byte	1                               @ DW_AT_byte_size
+	.byte	2                               @ DW_AT_decl_file
+	.byte	160                             @ DW_AT_decl_line
+	.byte	3                               @ Abbrev [3] 0x129:0x6 DW_TAG_enumerator
+	.long	.Linfo_string35                 @ DW_AT_name
+	.byte	0                               @ DW_AT_const_value
+	.byte	3                               @ Abbrev [3] 0x12f:0x6 DW_TAG_enumerator
+	.long	.Linfo_string36                 @ DW_AT_name
+	.byte	1                               @ DW_AT_const_value
+	.byte	0                               @ End Of Children Mark
+	.byte	5                               @ Abbrev [5] 0x136:0xb DW_TAG_typedef
+	.long	221                             @ DW_AT_type
+	.long	.Linfo_string37                 @ DW_AT_name
+	.byte	3                               @ DW_AT_decl_file
+	.byte	64                              @ DW_AT_decl_line
+	.byte	6                               @ Abbrev [6] 0x141:0x5 DW_TAG_pointer_type
+	.long	326                             @ DW_AT_type
+	.byte	7                               @ Abbrev [7] 0x146:0x5 DW_TAG_volatile_type
+	.long	310                             @ DW_AT_type
+	.byte	8                               @ Abbrev [8] 0x14b:0x11 DW_TAG_subprogram
+	.long	.Lfunc_begin0                   @ DW_AT_low_pc
+	.long	.Lfunc_end0-.Lfunc_begin0       @ DW_AT_high_pc
+	.byte	1                               @ DW_AT_frame_base
+	.byte	93
+	.long	.Linfo_string38                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	45                              @ DW_AT_decl_line
+                                        @ DW_AT_prototyped
+                                        @ DW_AT_external
+	.byte	9                               @ Abbrev [9] 0x15c:0x3c DW_TAG_subprogram
+	.long	.Lfunc_begin1                   @ DW_AT_low_pc
+	.long	.Lfunc_end1-.Lfunc_begin1       @ DW_AT_high_pc
+	.byte	1                               @ DW_AT_frame_base
+	.byte	93
+	.long	.Linfo_string39                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	73                              @ DW_AT_decl_line
+                                        @ DW_AT_prototyped
+                                        @ DW_AT_external
+	.byte	10                              @ Abbrev [10] 0x16d:0xe DW_TAG_formal_parameter
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	16
+	.long	.Linfo_string51                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	73                              @ DW_AT_decl_line
+	.long	777                             @ DW_AT_type
+	.byte	10                              @ Abbrev [10] 0x17b:0xe DW_TAG_formal_parameter
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	12
+	.long	.Linfo_string53                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	74                              @ DW_AT_decl_line
+	.long	788                             @ DW_AT_type
+	.byte	10                              @ Abbrev [10] 0x189:0xe DW_TAG_formal_parameter
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	8
+	.long	.Linfo_string55                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	75                              @ DW_AT_decl_line
+	.long	799                             @ DW_AT_type
+	.byte	0                               @ End Of Children Mark
+	.byte	9                               @ Abbrev [9] 0x198:0x20 DW_TAG_subprogram
+	.long	.Lfunc_begin2                   @ DW_AT_low_pc
+	.long	.Lfunc_end2-.Lfunc_begin2       @ DW_AT_high_pc
+	.byte	1                               @ DW_AT_frame_base
+	.byte	93
+	.long	.Linfo_string40                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	124                             @ DW_AT_decl_line
+                                        @ DW_AT_prototyped
+                                        @ DW_AT_external
+	.byte	10                              @ Abbrev [10] 0x1a9:0xe DW_TAG_formal_parameter
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	0
+	.long	.Linfo_string51                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	124                             @ DW_AT_decl_line
+	.long	777                             @ DW_AT_type
+	.byte	0                               @ End Of Children Mark
+	.byte	9                               @ Abbrev [9] 0x1b8:0x20 DW_TAG_subprogram
+	.long	.Lfunc_begin3                   @ DW_AT_low_pc
+	.long	.Lfunc_end3-.Lfunc_begin3       @ DW_AT_high_pc
+	.byte	1                               @ DW_AT_frame_base
+	.byte	93
+	.long	.Linfo_string41                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	137                             @ DW_AT_decl_line
+                                        @ DW_AT_prototyped
+                                        @ DW_AT_external
+	.byte	10                              @ Abbrev [10] 0x1c9:0xe DW_TAG_formal_parameter
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	0
+	.long	.Linfo_string51                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	137                             @ DW_AT_decl_line
+	.long	777                             @ DW_AT_type
+	.byte	0                               @ End Of Children Mark
+	.byte	9                               @ Abbrev [9] 0x1d8:0x20 DW_TAG_subprogram
+	.long	.Lfunc_begin4                   @ DW_AT_low_pc
+	.long	.Lfunc_end4-.Lfunc_begin4       @ DW_AT_high_pc
+	.byte	1                               @ DW_AT_frame_base
+	.byte	93
+	.long	.Linfo_string42                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	150                             @ DW_AT_decl_line
+                                        @ DW_AT_prototyped
+                                        @ DW_AT_external
+	.byte	10                              @ Abbrev [10] 0x1e9:0xe DW_TAG_formal_parameter
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	0
+	.long	.Linfo_string51                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	150                             @ DW_AT_decl_line
+	.long	777                             @ DW_AT_type
+	.byte	0                               @ End Of Children Mark
+	.byte	9                               @ Abbrev [9] 0x1f8:0x20 DW_TAG_subprogram
+	.long	.Lfunc_begin5                   @ DW_AT_low_pc
+	.long	.Lfunc_end5-.Lfunc_begin5       @ DW_AT_high_pc
+	.byte	1                               @ DW_AT_frame_base
+	.byte	93
+	.long	.Linfo_string43                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	163                             @ DW_AT_decl_line
+                                        @ DW_AT_prototyped
+                                        @ DW_AT_external
+	.byte	10                              @ Abbrev [10] 0x209:0xe DW_TAG_formal_parameter
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	0
+	.long	.Linfo_string51                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	163                             @ DW_AT_decl_line
+	.long	777                             @ DW_AT_type
+	.byte	0                               @ End Of Children Mark
+	.byte	9                               @ Abbrev [9] 0x218:0x20 DW_TAG_subprogram
+	.long	.Lfunc_begin6                   @ DW_AT_low_pc
+	.long	.Lfunc_end6-.Lfunc_begin6       @ DW_AT_high_pc
+	.byte	1                               @ DW_AT_frame_base
+	.byte	93
+	.long	.Linfo_string44                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	176                             @ DW_AT_decl_line
+                                        @ DW_AT_prototyped
+                                        @ DW_AT_external
+	.byte	10                              @ Abbrev [10] 0x229:0xe DW_TAG_formal_parameter
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	0
+	.long	.Linfo_string51                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	176                             @ DW_AT_decl_line
+	.long	777                             @ DW_AT_type
+	.byte	0                               @ End Of Children Mark
+	.byte	9                               @ Abbrev [9] 0x238:0x20 DW_TAG_subprogram
+	.long	.Lfunc_begin7                   @ DW_AT_low_pc
+	.long	.Lfunc_end7-.Lfunc_begin7       @ DW_AT_high_pc
+	.byte	1                               @ DW_AT_frame_base
+	.byte	93
+	.long	.Linfo_string45                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	189                             @ DW_AT_decl_line
+                                        @ DW_AT_prototyped
+                                        @ DW_AT_external
+	.byte	10                              @ Abbrev [10] 0x249:0xe DW_TAG_formal_parameter
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	0
+	.long	.Linfo_string51                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	189                             @ DW_AT_decl_line
+	.long	777                             @ DW_AT_type
+	.byte	0                               @ End Of Children Mark
+	.byte	11                              @ Abbrev [11] 0x258:0x32 DW_TAG_subprogram
+	.long	.Lfunc_begin8                   @ DW_AT_low_pc
+	.long	.Lfunc_end8-.Lfunc_begin8       @ DW_AT_high_pc
+	.byte	1                               @ DW_AT_frame_base
+	.byte	93
+	.long	.Linfo_string46                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	202                             @ DW_AT_decl_line
+                                        @ DW_AT_prototyped
+	.long	766                             @ DW_AT_type
+                                        @ DW_AT_external
+	.byte	10                              @ Abbrev [10] 0x26d:0xe DW_TAG_formal_parameter
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	4
+	.long	.Linfo_string51                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	202                             @ DW_AT_decl_line
+	.long	777                             @ DW_AT_type
+	.byte	12                              @ Abbrev [12] 0x27b:0xe DW_TAG_variable
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	0
+	.long	.Linfo_string57                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	204                             @ DW_AT_decl_line
+	.long	766                             @ DW_AT_type
+	.byte	0                               @ End Of Children Mark
+	.byte	9                               @ Abbrev [9] 0x28a:0x20 DW_TAG_subprogram
+	.long	.Lfunc_begin9                   @ DW_AT_low_pc
+	.long	.Lfunc_end9-.Lfunc_begin9       @ DW_AT_high_pc
+	.byte	1                               @ DW_AT_frame_base
+	.byte	93
+	.long	.Linfo_string48                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	223                             @ DW_AT_decl_line
+                                        @ DW_AT_prototyped
+                                        @ DW_AT_external
+	.byte	10                              @ Abbrev [10] 0x29b:0xe DW_TAG_formal_parameter
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	0
+	.long	.Linfo_string51                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	223                             @ DW_AT_decl_line
+	.long	777                             @ DW_AT_type
+	.byte	0                               @ End Of Children Mark
+	.byte	11                              @ Abbrev [11] 0x2aa:0x32 DW_TAG_subprogram
+	.long	.Lfunc_begin10                  @ DW_AT_low_pc
+	.long	.Lfunc_end10-.Lfunc_begin10     @ DW_AT_high_pc
+	.byte	1                               @ DW_AT_frame_base
+	.byte	93
+	.long	.Linfo_string49                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	236                             @ DW_AT_decl_line
+                                        @ DW_AT_prototyped
+	.long	766                             @ DW_AT_type
+                                        @ DW_AT_external
+	.byte	10                              @ Abbrev [10] 0x2bf:0xe DW_TAG_formal_parameter
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	4
+	.long	.Linfo_string51                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	236                             @ DW_AT_decl_line
+	.long	777                             @ DW_AT_type
+	.byte	12                              @ Abbrev [12] 0x2cd:0xe DW_TAG_variable
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	0
+	.long	.Linfo_string57                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.byte	238                             @ DW_AT_decl_line
+	.long	766                             @ DW_AT_type
+	.byte	0                               @ End Of Children Mark
+	.byte	13                              @ Abbrev [13] 0x2dc:0x22 DW_TAG_subprogram
+	.long	.Lfunc_begin11                  @ DW_AT_low_pc
+	.long	.Lfunc_end11-.Lfunc_begin11     @ DW_AT_high_pc
+	.byte	1                               @ DW_AT_frame_base
+	.byte	93
+	.long	.Linfo_string50                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.short	257                             @ DW_AT_decl_line
+                                        @ DW_AT_prototyped
+                                        @ DW_AT_external
+	.byte	14                              @ Abbrev [14] 0x2ee:0xf DW_TAG_formal_parameter
+	.byte	2                               @ DW_AT_location
+	.byte	145
+	.byte	0
+	.long	.Linfo_string51                 @ DW_AT_name
+	.byte	4                               @ DW_AT_decl_file
+	.short	257                             @ DW_AT_decl_line
+	.long	777                             @ DW_AT_type
+	.byte	0                               @ End Of Children Mark
+	.byte	5                               @ Abbrev [5] 0x2fe:0xb DW_TAG_typedef
+	.long	289                             @ DW_AT_type
+	.long	.Linfo_string47                 @ DW_AT_name
+	.byte	2                               @ DW_AT_decl_file
+	.byte	160                             @ DW_AT_decl_line
+	.byte	5                               @ Abbrev [5] 0x309:0xb DW_TAG_typedef
+	.long	38                              @ DW_AT_type
+	.long	.Linfo_string52                 @ DW_AT_name
+	.byte	1                               @ DW_AT_decl_file
+	.byte	236                             @ DW_AT_decl_line
+	.byte	5                               @ Abbrev [5] 0x314:0xb DW_TAG_typedef
+	.long	228                             @ DW_AT_type
+	.long	.Linfo_string54                 @ DW_AT_name
+	.byte	1                               @ DW_AT_decl_file
+	.byte	242                             @ DW_AT_decl_line
+	.byte	5                               @ Abbrev [5] 0x31f:0xb DW_TAG_typedef
+	.long	256                             @ DW_AT_type
+	.long	.Linfo_string56                 @ DW_AT_name
+	.byte	1                               @ DW_AT_decl_file
+	.byte	250                             @ DW_AT_decl_line
+	.byte	0                               @ End Of Children Mark
+.Ldebug_info_end0:
+	.section	.debug_ranges,"",%progbits
+.Ldebug_ranges0:
+	.long	.Lfunc_begin0
+	.long	.Lfunc_end0
+	.long	.Lfunc_begin1
+	.long	.Lfunc_end1
+	.long	.Lfunc_begin2
+	.long	.Lfunc_end2
+	.long	.Lfunc_begin3
+	.long	.Lfunc_end3
+	.long	.Lfunc_begin4
+	.long	.Lfunc_end4
+	.long	.Lfunc_begin5
+	.long	.Lfunc_end5
+	.long	.Lfunc_begin6
+	.long	.Lfunc_end6
+	.long	.Lfunc_begin7
+	.long	.Lfunc_end7
+	.long	.Lfunc_begin8
+	.long	.Lfunc_end8
+	.long	.Lfunc_begin9
+	.long	.Lfunc_end9
+	.long	.Lfunc_begin10
+	.long	.Lfunc_end10
+	.long	.Lfunc_begin11
+	.long	.Lfunc_end11
+	.long	0
+	.long	0
+	.section	.debug_str,"MS",%progbits,1
+.Linfo_string0:
+	.asciz	"Component: ARM Compiler 6.16 Tool: armclang [5dfeb700]" @ string offset=0
+.Linfo_string1:
+	.asciz	"../std/GD32C2x1_Firmware_Library/GD32C2x1_standard_peripheral/Source\\gd32c2x1_exti.c" @ string offset=55
+.Linfo_string2:
+	.asciz	"E:\\work\\CX_NFC_RX\\prj"      @ string offset=140
+.Linfo_string3:
+	.asciz	"unsigned int"                  @ string offset=162
+.Linfo_string4:
+	.asciz	"EXTI_0"                        @ string offset=175
+.Linfo_string5:
+	.asciz	"EXTI_1"                        @ string offset=182
+.Linfo_string6:
+	.asciz	"EXTI_2"                        @ string offset=189
+.Linfo_string7:
+	.asciz	"EXTI_3"                        @ string offset=196
+.Linfo_string8:
+	.asciz	"EXTI_4"                        @ string offset=203
+.Linfo_string9:
+	.asciz	"EXTI_5"                        @ string offset=210
+.Linfo_string10:
+	.asciz	"EXTI_6"                        @ string offset=217
+.Linfo_string11:
+	.asciz	"EXTI_7"                        @ string offset=224
+.Linfo_string12:
+	.asciz	"EXTI_8"                        @ string offset=231
+.Linfo_string13:
+	.asciz	"EXTI_9"                        @ string offset=238
+.Linfo_string14:
+	.asciz	"EXTI_10"                       @ string offset=245
+.Linfo_string15:
+	.asciz	"EXTI_11"                       @ string offset=253
+.Linfo_string16:
+	.asciz	"EXTI_12"                       @ string offset=261
+.Linfo_string17:
+	.asciz	"EXTI_13"                       @ string offset=269
+.Linfo_string18:
+	.asciz	"EXTI_14"                       @ string offset=277
+.Linfo_string19:
+	.asciz	"EXTI_15"                       @ string offset=285
+.Linfo_string20:
+	.asciz	"EXTI_16"                       @ string offset=293
+.Linfo_string21:
+	.asciz	"EXTI_17"                       @ string offset=301
+.Linfo_string22:
+	.asciz	"EXTI_18"                       @ string offset=309
+.Linfo_string23:
+	.asciz	"EXTI_19"                       @ string offset=317
+.Linfo_string24:
+	.asciz	"EXTI_20"                       @ string offset=325
+.Linfo_string25:
+	.asciz	"EXTI_21"                       @ string offset=333
+.Linfo_string26:
+	.asciz	"EXTI_22"                       @ string offset=341
+.Linfo_string27:
+	.asciz	"EXTI_23"                       @ string offset=349
+.Linfo_string28:
+	.asciz	"unsigned char"                 @ string offset=357
+.Linfo_string29:
+	.asciz	"EXTI_INTERRUPT"                @ string offset=371
+.Linfo_string30:
+	.asciz	"EXTI_EVENT"                    @ string offset=386
+.Linfo_string31:
+	.asciz	"EXTI_TRIG_RISING"              @ string offset=397
+.Linfo_string32:
+	.asciz	"EXTI_TRIG_FALLING"             @ string offset=414
+.Linfo_string33:
+	.asciz	"EXTI_TRIG_BOTH"                @ string offset=432
+.Linfo_string34:
+	.asciz	"EXTI_TRIG_NONE"                @ string offset=447
+.Linfo_string35:
+	.asciz	"RESET"                         @ string offset=462
+.Linfo_string36:
+	.asciz	"SET"                           @ string offset=468
+.Linfo_string37:
+	.asciz	"uint32_t"                      @ string offset=472
+.Linfo_string38:
+	.asciz	"exti_deinit"                   @ string offset=481
+.Linfo_string39:
+	.asciz	"exti_init"                     @ string offset=493
+.Linfo_string40:
+	.asciz	"exti_interrupt_enable"         @ string offset=503
+.Linfo_string41:
+	.asciz	"exti_interrupt_disable"        @ string offset=525
+.Linfo_string42:
+	.asciz	"exti_event_enable"             @ string offset=548
+.Linfo_string43:
+	.asciz	"exti_event_disable"            @ string offset=566
+.Linfo_string44:
+	.asciz	"exti_software_interrupt_enable" @ string offset=585
+.Linfo_string45:
+	.asciz	"exti_software_interrupt_disable" @ string offset=616
+.Linfo_string46:
+	.asciz	"exti_flag_get"                 @ string offset=648
+.Linfo_string47:
+	.asciz	"FlagStatus"                    @ string offset=662
+.Linfo_string48:
+	.asciz	"exti_flag_clear"               @ string offset=673
+.Linfo_string49:
+	.asciz	"exti_interrupt_flag_get"       @ string offset=689
+.Linfo_string50:
+	.asciz	"exti_interrupt_flag_clear"     @ string offset=713
+.Linfo_string51:
+	.asciz	"linex"                         @ string offset=739
+.Linfo_string52:
+	.asciz	"exti_line_enum"                @ string offset=745
+.Linfo_string53:
+	.asciz	"mode"                          @ string offset=760
+.Linfo_string54:
+	.asciz	"exti_mode_enum"                @ string offset=765
+.Linfo_string55:
+	.asciz	"trig_type"                     @ string offset=780
+.Linfo_string56:
+	.asciz	"exti_trig_type_enum"           @ string offset=790
+.Linfo_string57:
+	.asciz	"reval"                         @ string offset=810
+	.ident	"Component: ARM Compiler 6.16 Tool: armclang [5dfeb700]"
+	.section	".note.GNU-stack","",%progbits
+	.eabi_attribute	30, 6	@ Tag_ABI_optimization_goals
+	.ARM_attribute	16, 1	@ Tag_AV_eba
+	.section	.debug_line,"",%progbits
+.Lline_table_start0:
